@@ -27,7 +27,7 @@
   box-sizing: border-box;
 }
 body {
-  background: var(--background);
+  background: var(--foreground);
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -224,4 +224,72 @@ option {
 .heroForm h3 {
   color: #eb3035;
   text-transform: uppercase;
+}
+/*painSolution*/
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  color: var(--cinza-escuro);
+}
+.text h2 {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+}
+.text a {
+  text-decoration: none;
+  width: fit-content;
+}
+.text p {
+  font-size: 1.2rem;
+}
+.text span {
+  font-size: 3rem;
+  color: var(--vermelhor-vivido-2);
+  line-height: 1;
+}
+/*Servicos*/
+.servicos .container {
+  display: flex;
+  flex-direction: column;
+}
+.servicos-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.servico-item {
+  color: var(--cinza-escuro);
+  background-color: var(--vermelho-vivido-1);
+  padding: 10px;
+  border-radius: 10px;
+}
+.item-text {
+  color: var(--foreground);
+}
+.buttons {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 0.5rem;
+}
+.buttons a {
+  width: 100%;
+  text-decoration: none;
+}
+.saibaMais {
+  background-color: var(--foreground);
+  border-radius: 10px;
+  color: var(--cinza-escuro);
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding: 10px 4%;
+}
+.WhatsAppBtn {
+  background-color: rgb(6, 202, 88);
+  border-radius: 10px;
+  color: #fff;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  padding: 10px 4%;
 }
