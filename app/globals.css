@@ -27,7 +27,7 @@
   box-sizing: border-box;
 }
 body {
-  background: var(--foreground);
+  background: #fff;
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -306,4 +306,144 @@ option {
 .servico-item img {
   max-width: 400px;
   width: 100%;
+}
+.beneficios .container {
+  flex-direction: column;
+}
+.beneficios .beneficios-list {
+  display: flex;
+  gap: 1rem;
+  align-items: stretch;
+  align-items: center;
+}
+.beneficio-item {
+  background-color: var(--cinza-escuro);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  gap: 1rem;
+}
+.beneficio-item h3 {
+  color: #ec3035;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+.beneficio-item p {
+  font-size: 1.2rem;
+}
+.autoridade .container {
+  background-color: #0a0a0a;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+.autoridade .text {
+  color: #e5e5e5;
+}
+.autoridade .text h2 {
+  font-size: 2.5rem;
+}
+.autoridade-container {
+  display: flex;
+  gap: 1rem;
+}
+.autoridade-card {
+  background-color: #e5e5e5;
+  color: var(--cinza-escuro);
+  text-align: center;
+  padding: 10px;
+}
+.autoridade-card p {
+  font-size: 18px;
+}
+.autoridade-card span {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.autoridade .container a {
+  text-decoration: none;
+}
+
+.empresas-grid {
+  display: flex;
+}
+
+.provasSociais {
+  padding: 100px 0;
+  background: #fafafa;
+  overflow: hidden;
+}
+.provasSociais .container {
+  flex-direction: column;
+}
+.headerSection {
+  max-width: 900px;
+  margin: 0 auto 60px;
+  text-align: center;
+}
+
+.headerSection span {
+  display: inline-block;
+  margin-bottom: 12px;
+  font-weight: 700;
+  color: var(--vermelho-vivido-1);
+  letter-spacing: 1px;
+}
+
+.headerSection h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  margin-bottom: 20px;
+  color: var(--cinza-escuro);
+}
+
+.headerSection p {
+  font-size: 1.1rem;
+  color: #666;
+  line-height: 1.7;
+}
+
+.logoRow {
+  overflow: hidden;
+  margin-bottom: 35px;
+}
+
+.logoTrack {
+  display: flex;
+  width: max-content;
+  animation: scrollLogos 35s linear infinite;
+}
+.logoTrack.reverse {
+  animation-direction: reverse;
+}
+.logoTrack img {
+  width: 180px;
+  height: 90px;
+
+  object-fit: contain;
+
+  margin: 0 40px;
+
+  filter: grayscale(100%);
+  opacity: 0.7;
+
+  transition: 0.3s;
+}
+.container a {
+  text-decoration: none;
+}
+.logoTrack img:hover {
+  filter: grayscale(0);
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+@keyframes scrollLogos {
+  from {
+    transform: translateX(0);
+  }
+
+  to {
+    transform: translateX(-50%);
+  }
 }

@@ -1,5 +1,6 @@
 import Autoridade from "./components/Autoridade";
 import Beneficios from "./components/Beneficios";
+import EmpresasAjudadas from "./components/EmpresasAjudadas";
 import Hero from "./components/Hero";
 import PainSolution from "./components/PainSolution";
 import Servicos from "./components/Servicos";
@@ -12,6 +13,7 @@ export default function Home() {
       <Servicos />
       <Beneficios />
       <Autoridade />
+      <EmpresasAjudadas />
     </>
   );
 }

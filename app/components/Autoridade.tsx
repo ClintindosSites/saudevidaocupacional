@@ -5,10 +5,9 @@ export default function Autoridade() {
         <div className="text">
           <h2>Experiência e Credibilidade</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
-            voluptates corporis, ex ab maxime nulla quae. Saepe, eveniet. Rem
-            inventore accusantium aliquid assumenda voluptates recusandae iusto
-            consectetur aspernatur veritatis corrupti!
+            Na Saúde e Vida, oferecemos soluções completas em medicina e
+            segurança do trabalho para garantir conformidade legal, qualidade de
+            vida dos colaboradores e mais produtividade para o seu negócio.
           </p>
         </div>
         <div className="autoridade-container">
@@ -17,7 +16,7 @@ export default function Autoridade() {
             <p>Anos de experiência</p>
           </div>
           <div className="autoridade-card">
-            <span>392+</span>
+            <span>165+</span>
             <p>Empresas atendidas em Minas Gerais</p>
           </div>
           <div className="autoridade-card">
@@ -30,6 +29,9 @@ export default function Autoridade() {
             <p>Clientes satisfeitos com nossa consultoria</p>
           </div>
         </div>
+        <a href="#" className="btnHeader">
+          Transforme sua empresa em nossa cliente hoje mesmo
+        </a>
       </div>
     </section>
   );
