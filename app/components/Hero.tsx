@@ -12,6 +12,9 @@ export default function Hero() {
             multas e proteja a saúde dos seus colaboradores com soluções
             completas em SST.
           </p>
+          <a href="#" className="btnHeader">
+            Fale direto no Whatsapp
+          </a>
         </div>
         <div className="heroForm">
           <form>

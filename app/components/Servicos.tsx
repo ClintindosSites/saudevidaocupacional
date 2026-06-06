@@ -12,12 +12,7 @@ export default function Servicos() {
         <div className="servicos-grid">
           <div className="servico-item">
             <div className="item-img">
-              <Image
-                src={"/pcmso-card.webp"}
-                width={270}
-                height={100}
-                alt="pcmso"
-              />
+              <img src={"/pcmso-card.webp"} alt="pcmso" />
             </div>
             <div className="item-text">
               <h3>PCMSO</h3>
@@ -34,12 +29,7 @@ export default function Servicos() {
           </div>
           <div className="servico-item">
             <div className="item-img">
-              <Image
-                src={"/pgr-card.webp"}
-                width={270}
-                height={100}
-                alt="pcmso"
-              />
+              <img src={"/pgr-card.webp"} alt="pcmso" />
             </div>{" "}
             <div className="item-text">
               <h3>PGR</h3>
@@ -56,12 +46,7 @@ export default function Servicos() {
           </div>
           <div className="servico-item">
             <div className="item-img">
-              <Image
-                src={"/exame-ocupacional-card.webp"}
-                width={270}
-                height={100}
-                alt="pcmso"
-              />
+              <img src={"/exame-ocupacional-card.webp"} alt="pcmso" />
             </div>
             <div className="item-text">
               <h3>Exames Ocupacionais</h3>
@@ -81,12 +66,7 @@ export default function Servicos() {
           </div>
           <div className="servico-item">
             <div className="item-img">
-              <Image
-                src={"/ltcat-card.webp"}
-                width={270}
-                height={100}
-                alt="pcmso"
-              />
+              <img src={"/ltcat-card.webp"} alt="pcmso" />
             </div>
             <div className="item-text">
               <h3>LTCAT</h3>
@@ -105,12 +85,7 @@ export default function Servicos() {
             {" "}
             <div className="item-text">
               <div className="item-img">
-                <Image
-                  src={"/eSocial-card.webp"}
-                  width={270}
-                  height={100}
-                  alt="pcmso"
-                />
+                <img src={"/eSocial-card.webp"} alt="pcmso" />
               </div>
               <h3>eSocial</h3>
               <p>Envio correto e seguro dos eventos obrigatórios.</p>
@@ -126,12 +101,7 @@ export default function Servicos() {
           </div>
           <div className="servico-item">
             <div className="item-img">
-              <Image
-                src={"/ergonomia-card.webp"}
-                width={270}
-                height={100}
-                alt="pcmso"
-              />
+              <img src={"/ergonomia-card.webp"} alt="pcmso" />
             </div>
             <div className="item-text">
               <h3>Ergonomia</h3>

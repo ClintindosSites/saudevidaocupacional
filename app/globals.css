@@ -200,6 +200,16 @@ h1 span {
   width: 100%;
   resize: none;
 }
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.hero-text a {
+  text-decoration: none;
+  width: fit-content;
+}
 input {
   height: 30px;
 }
@@ -292,4 +302,8 @@ option {
   font-size: 1.2rem;
   text-transform: uppercase;
   padding: 10px 4%;
+}
+.servico-item img {
+  max-width: 400px;
+  width: 100%;
 }
