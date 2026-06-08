@@ -1022,3 +1022,12 @@ option {
     height: 45px;
   }
 }
+.dor .container {
+  flex-direction: column;
+}
+.dor h2 {
+  color: #0a0a0a;
+}
+.dor p {
+  color: #0a0a0a;
+}
