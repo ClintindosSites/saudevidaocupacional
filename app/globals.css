@@ -39,6 +39,7 @@ h1 {
   font-size: 1.6rem;
   font-weight: 700;
   text-transform: uppercase;
+  color: #fff;
 }
 h1 span {
   font-size: 3.5rem;
@@ -280,7 +281,7 @@ option {
   border-radius: 10px;
 }
 .item-text {
-  color: var(--foreground);
+  color: #fff;
 }
 .buttons {
   display: flex;
@@ -293,7 +294,7 @@ option {
   text-decoration: none;
 }
 .saibaMais {
-  background-color: var(--foreground);
+  background-color: #fff;
   border-radius: 10px;
   color: var(--cinza-escuro);
   font-size: 1.2rem;
@@ -806,7 +807,7 @@ option {
   font-size: 0.9rem;
 }
 .footer .container img {
-  background-color: var(--foreground);
+  background-color: #fff;
   border-bottom-left-radius: 25px;
   border-top-right-radius: 25px;
 }
