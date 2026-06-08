@@ -1,3 +1,4 @@
+"use client";
 const reviews = [
   {
     nome: "Carlos Henrique",
@@ -32,35 +33,39 @@ const reviews = [
   },
 ];
 export default function Avaliacoes() {
-  <section className="reviews">
-    <div className="avaliacoes-header">
-      <span>AVALIAÇÕES</span>
+  return (
+    <section className="reviews">
+      <div className="container">
+        {" "}
+        <div className="avaliacoes-header">
+          <span>AVALIAÇÕES</span>
 
-      <h2>O que nossos clientes dizem</h2>
+          <h2>O que nossos clientes dizem</h2>
 
-      <p>
-        Mais segurança, conformidade e tranquilidade para empresas de diversos
-        segmentos.
-      </p>
-    </div>
-
-    <div className="reviews-grid">
-      {reviews.map((review, index) => (
-        <div key={index} className="review-card">
-          <div className="review-top">
-            <div className="avatar">{review.nome.charAt(0)}</div>
-
-            <div>
-              <h3>{review.nome}</h3>
-              <span>{review.empresa}</span>
-            </div>
-          </div>
-
-          <div className="stars">⭐⭐⭐⭐⭐</div>
-
-          <p>{review.comentario}</p>
+          <p>
+            Mais segurança, conformidade e tranquilidade para empresas de
+            diversos segmentos.
+          </p>
         </div>
-      ))}
-    </div>
-  </section>;
+        <div className="reviews-grid">
+          {reviews.map((review, index) => (
+            <div key={index} className="review-card">
+              <div className="review-top">
+                <div className="avatar">{review.nome.charAt(0)}</div>
+
+                <div>
+                  <h3>{review.nome}</h3>
+                  <span>{review.empresa}</span>
+                </div>
+              </div>
+
+              <div className="stars">{"⭐".repeat(review.nota)}</div>
+
+              <p>{review.comentario}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
 }
