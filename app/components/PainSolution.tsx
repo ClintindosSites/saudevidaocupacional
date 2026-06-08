@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function PainSolution() {
   return (
-    <section>
+    <section className="painSolution">
       <div className="container">
         <div className="text">
           <h2>

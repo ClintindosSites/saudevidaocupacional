@@ -1,4 +1,5 @@
 import Autoridade from "./components/Autoridade";
+import Avaliacoes from "./components/Avaliacoes";
 import Beneficios from "./components/Beneficios";
 import EmpresasAjudadas from "./components/EmpresasAjudadas";
 import Hero from "./components/Hero";
@@ -14,6 +15,7 @@ export default function Home() {
       <Beneficios />
       <Autoridade />
       <EmpresasAjudadas />
+      <Avaliacoes />
     </>
   );
 }

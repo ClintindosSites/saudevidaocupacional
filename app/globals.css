@@ -447,3 +447,298 @@ option {
     transform: translateX(-50%);
   }
 }
+.reviews {
+  padding: 100px 0;
+}
+
+.avaliacoes-header {
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.avaliacoes-header span {
+  color: var(--vermelho-vivido-1);
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.avaliacoes-header h2 {
+  margin: 15px 0;
+  font-size: clamp(2rem, 4vw, 3rem);
+}
+
+.avaliacoes-header p {
+  color: #666;
+  line-height: 1.7;
+}
+
+.reviews-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+}
+
+.review-card {
+  background: white;
+
+  padding: 30px;
+
+  border-radius: 18px;
+
+  box-shadow:
+    0 4px 12px rgba(0, 0, 0, 0.05),
+    0 20px 40px rgba(0, 0, 0, 0.06);
+
+  transition: 0.3s;
+}
+
+.review-card:hover {
+  transform: translateY(-5px);
+}
+
+.review-top {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.avatar {
+  width: 55px;
+  height: 55px;
+
+  border-radius: 50%;
+
+  background: var(--vermelho-vivido-1);
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-weight: 700;
+}
+
+.review-top h3 {
+  margin: 0;
+}
+
+.review-top span {
+  color: #777;
+  font-size: 0.9rem;
+}
+
+.stars {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+}
+
+.review-card p {
+  color: #444;
+  line-height: 1.7;
+}
+
+/* TABLETS */
+
+@media screen and (max-width: 992px) {
+  h1 {
+    font-size: 1.4rem;
+  }
+
+  h1 span {
+    font-size: 2.8rem;
+  }
+
+  .hero .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .hero-text {
+    max-width: 100%;
+  }
+
+  .hero-text a {
+    margin: 0 auto;
+  }
+
+  .heroForm form {
+    width: 100%;
+    max-width: 500px;
+  }
+
+  .servicos-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .beneficios .beneficios-list {
+    flex-wrap: wrap;
+  }
+
+  .beneficio-item {
+    width: calc(50% - 0.5rem);
+  }
+
+  .autoridade-container {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .autoridade-card {
+    width: calc(50% - 0.5rem);
+  }
+}
+@media screen and (max-width: 768px) {
+  section {
+    padding: 60px 15px;
+  }
+
+  .container {
+    padding: 16px;
+  }
+
+  h1 {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  h1 span {
+    font-size: 2.2rem;
+  }
+
+  .text h2 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  .text p {
+    font-size: 1rem;
+  }
+
+  .text span {
+    font-size: 2rem;
+  }
+
+  .hero {
+    min-height: auto;
+  }
+
+  .hero .container {
+    flex-direction: column;
+    gap: 2rem;
+  }
+
+  .heroForm {
+    max-width: 400px;
+    width: 100%;
+    text-align: left;
+  }
+  .heroForm h3 {
+    text-align: center;
+  }
+
+  .heroForm form {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .servicos-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .servico-item {
+    width: 100%;
+  }
+
+  .servico-item img {
+    max-width: 100%;
+  }
+
+  .buttons {
+    gap: 10px;
+  }
+
+  .saibaMais,
+  .WhatsAppBtn {
+    font-size: 1rem;
+    padding: 12px;
+  }
+  .servicos-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .beneficios .beneficios-list {
+    flex-direction: column;
+  }
+
+  .beneficio-item {
+    width: 100%;
+  }
+
+  .autoridade-container {
+    flex-direction: column;
+  }
+
+  .autoridade-card {
+    width: 100%;
+  }
+
+  .logoTrack img {
+    width: 120px;
+    height: 60px;
+    margin: 0 20px;
+  }
+
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .review-card {
+    padding: 20px;
+  }
+
+  .headerSection h2,
+  .avaliacoes-header h2 {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 500px) {
+  h1 {
+    font-size: 1rem;
+  }
+
+  h1 span {
+    font-size: 1.8rem;
+  }
+  .painSolution .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .heroForm form {
+    padding: 15px;
+    text-align: left;
+  }
+  .heroForm h3 {
+    text-align: center;
+  }
+
+  .headerSection h2,
+  .avaliacoes-header h2 {
+    font-size: 1.7rem;
+  }
+
+  .text h2 {
+    font-size: 1.5rem;
+  }
+
+  .logoTrack img {
+    width: 100px;
+    height: 50px;
+  }
+
+  .avatar {
+    width: 45px;
+    height: 45px;
+  }
+}
