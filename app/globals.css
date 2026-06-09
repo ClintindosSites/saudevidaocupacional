@@ -722,7 +722,7 @@ option {
   transform: translateY(-3px);
 }
 .footer {
-  background: #111;
+  background: #ec3035;
   color: #fff;
   padding-top: 80px;
 }
@@ -744,7 +744,7 @@ option {
 }
 
 .footer-brand p {
-  color: #bdbdbd;
+  color: #fff;
   line-height: 1.8;
   margin-bottom: 25px;
 }
@@ -803,8 +803,11 @@ option {
   justify-content: space-between;
   gap: 20px;
 
-  color: #999;
+  color: #fff;
   font-size: 0.9rem;
+}
+.footer-bottom a {
+  font-weight: bold;
 }
 .footer .container img {
   background-color: #fff;

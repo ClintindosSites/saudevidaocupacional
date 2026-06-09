@@ -29,8 +29,11 @@ export default function Header() {
             Segurança do Trabalho
           </Link>
 
-          <Link href="/servicos/exames-ocupacionais">Exames</Link>
-
+          <Link href="/servicos/exames-ocupacionais">Exames Admissionais</Link>
+          <Link href={"/servicos/ltcat"}>LTCAT</Link>
+          <Link href={"/servicos/pcmso"}>PCMSO</Link>
+          <Link href={"/servicos/pgr"}>PGR</Link>
+          <Link href={"/servicos/ergonomia"}>Ergonomia</Link>
           <Link href="/servicos/eSocial">eSocial</Link>
 
           <Link href="#contato" className="btnHeader">

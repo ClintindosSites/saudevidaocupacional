@@ -216,7 +216,7 @@ export const servicos: ServiceData[] = [
     },
   },
   {
-    slug: "esocial",
+    slug: "eSocial",
 
     title: "eSocial SST",
 

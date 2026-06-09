@@ -14,7 +14,7 @@ export default function Footer() {
             </p>
 
             <a
-              href="https://wa.me/5531999999999"
+              href="https://wa.me/553135323016?text=Ol%C3%A1%2C%20vim%20do%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
               target="_blank"
               rel="noreferrer"
               className="footer-whatsapp"
@@ -28,29 +28,41 @@ export default function Footer() {
 
             <ul>
               <li>
+                {" "}
                 <Link href="/servicos/medicina-do-trabalho">
                   Medicina do Trabalho
                 </Link>
               </li>
 
               <li>
-                <Link href="/servicos/exames-ocupacionais">
-                  Exames Ocupacionais
-                </Link>
-              </li>
-
-              <li>
+                {" "}
                 <Link href="/servicos/seguranca-do-trabalho">
                   Segurança do Trabalho
                 </Link>
               </li>
 
               <li>
-                <Link href="/servicos/ergonomia">Ergonomia</Link>
+                {" "}
+                <Link href="/servicos/exames-ocupacionais">
+                  Exames Admissionais
+                </Link>
               </li>
-
+              <Link href={"/servicos/ltcat"}>LTCAT</Link>
               <li>
-                <Link href="/servicos/esocial">eSocial SST</Link>
+                {" "}
+                <Link href={"/servicos/pcmso"}>PCMSO</Link>
+              </li>
+              <li>
+                {" "}
+                <Link href={"/servicos/pgr"}>PGR</Link>
+              </li>
+              <li>
+                {" "}
+                <Link href={"/servicos/ergonomia"}>Ergonomia</Link>
+              </li>
+              <li>
+                {" "}
+                <Link href="/servicos/eSocial">eSocial</Link>
               </li>
             </ul>
           </div>
@@ -78,7 +90,16 @@ export default function Footer() {
             Trabalho. Todos os direitos reservados.
           </p>
 
-          <p>Desenvolvido por Clintin dos Sites</p>
+          <p>
+            Desenvolvido por{" "}
+            <a
+              href="https://clintindossites.com.br"
+              className="decoration-none"
+              target="_blank"
+            >
+              Clintin dos Sites
+            </a>
+          </p>
         </div>
       </div>
     </footer>
