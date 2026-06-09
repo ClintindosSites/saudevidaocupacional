@@ -36,7 +36,11 @@ export default function Header() {
           <Link href={"/servicos/ergonomia"}>Ergonomia</Link>
           <Link href="/servicos/eSocial">eSocial</Link>
 
-          <Link href="#contato" className="btnHeader">
+          <Link
+            href="https://wa.me/553135323016?text=Ol%C3%A1%2C%20vim%20do%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+            className="btnHeader"
+            target="_blank"
+          >
             Solicitar Orçamento
           </Link>
         </nav>

@@ -71,7 +71,7 @@ export default function Footer() {
             <h3>Contato</h3>
 
             <ul>
-              <li>(31) 99999-9999</li>
+              <li>(31) 3532-3016</li>
 
               <li>contato@saudevida.com.br</li>
 
