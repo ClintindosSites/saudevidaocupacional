@@ -25,15 +25,20 @@ export default function ServiceTemplate({ service }: Props) {
           <div className="text">
             {" "}
             <h2>{service.introTitle}</h2>
-            <p>{service.introText}</p>
+            <p className="subtitle">{service.introText}</p>
           </div>
         </div>
       </section>
 
       <section className="benefitsConversion">
         <div className="container">
+          <div className="text">
+            <h2>Quais benefícios a {service.title} pode beneficiar minha</h2>
+          </div>
           {service.benefits.map(item => (
-            <div key={item}>{item}</div>
+            <div className="beneficio-item" key={item}>
+              {item}
+            </div>
           ))}
         </div>
       </section>
@@ -41,7 +46,10 @@ export default function ServiceTemplate({ service }: Props) {
       <section className="ctaFinal">
         <div className="container">
           {" "}
-          <h2>Solicite um orçamento sem compromisso</h2>
+          <h2>
+            Proteja a sua empresa com a nossa consultoria em <br />
+            <span className="text-[#89b5f1]">{service.title}</span>
+          </h2>
           <a href="#contato" className="btnHeader">
             Falar com um especialista
           </a>
