@@ -11,12 +11,30 @@ export const servicos: ServiceData[] = [
     heroImage: "/pcmso.webp",
 
     benefits: [
-      "Evite multas",
-      "Conformidade legal",
-      "Proteção dos colaboradores",
-      "Suporte especializado",
-    ],
+      {
+        title: "Redução de afastamentos",
+        description:
+          "Identifique riscos ergonômicos antes que eles gerem lesões, afastamentos e prejuízos para sua empresa.",
+      },
 
+      {
+        title: "Maior produtividade",
+        description:
+          "Colaboradores mais confortáveis e seguros tendem a produzir mais e com melhor desempenho.",
+      },
+
+      {
+        title: "Adequação à NR-17",
+        description:
+          "Atenda às exigências da legislação trabalhista e mantenha sua empresa preparada para fiscalizações.",
+      },
+
+      {
+        title: "Melhoria do ambiente de trabalho",
+        description:
+          "Promova mais conforto, bem-estar e qualidade de vida para sua equipe.",
+      },
+    ],
     introTitle: "O que é o PCMSO?",
 
     introText:
@@ -48,23 +66,57 @@ export const servicos: ServiceData[] = [
     heroImage: "/pgr-card.webp",
 
     benefits: [
-      "Redução de riscos",
-      "Conformidade legal",
-      "Segurança operacional",
-      "Documentação completa",
+      {
+        title: "Redução de riscos",
+
+        description:
+          "Identifique perigos e implemente medidas preventivas para reduzir acidentes, afastamentos e prejuízos operacionais.",
+      },
+
+      {
+        title: "Conformidade legal",
+
+        description:
+          "Atenda às exigências da NR-01 e mantenha sua empresa preparada para fiscalizações e auditorias trabalhistas.",
+      },
+
+      {
+        title: "Segurança operacional",
+
+        description:
+          "Crie processos mais seguros para colaboradores e operações, reduzindo falhas e aumentando a proteção da equipe.",
+      },
+
+      {
+        title: "Documentação completa",
+
+        description:
+          "Receba toda a documentação técnica necessária para comprovar a gestão dos riscos ocupacionais da sua empresa.",
+      },
     ],
 
     introTitle: "O que é o PGR?",
 
     introText:
-      "O Programa de Gerenciamento de Riscos identifica, avalia e controla riscos ocupacionais.",
+      "O Programa de Gerenciamento de Riscos (PGR) é obrigatório para empresas e tem como objetivo identificar, avaliar e controlar riscos ocupacionais, promovendo mais segurança, conformidade legal e proteção para colaboradores e empregadores.",
 
     faq: [],
 
     seo: {
-      title: "PGR - Programa de Gerenciamento de Riscos",
-      description: "Elaboração de PGR para empresas.",
-      keywords: ["PGR"],
+      title: "PGR - Programa de Gerenciamento de Riscos | Saúde e Vida",
+
+      description:
+        "Elaboração de PGR para empresas. Identifique riscos ocupacionais, atenda à NR-01 e mantenha sua empresa em conformidade legal.",
+
+      keywords: [
+        "PGR",
+        "Programa de Gerenciamento de Riscos",
+        "NR01",
+        "Segurança do Trabalho",
+        "Gestão de Riscos",
+        "PGR empresa",
+        "consultoria SST",
+      ],
     },
   },
   {
@@ -78,16 +130,34 @@ export const servicos: ServiceData[] = [
     heroImage: "/exames-ocupacionais.webp",
 
     benefits: [
-      "Atendimento rápido",
-      "Conformidade com a legislação",
-      "Laudos e ASO emitidos",
-      "Redução de riscos trabalhistas",
+      {
+        title: "Atendimento rápido",
+        description:
+          "Agende exames ocupacionais com agilidade e evite atrasos em admissões, retornos ao trabalho e processos internos da empresa.",
+      },
+
+      {
+        title: "Conformidade com a legislação",
+        description:
+          "Mantenha sua empresa alinhada às exigências da NR-07 e da Medicina do Trabalho, reduzindo riscos de autuações e penalidades.",
+      },
+
+      {
+        title: "Laudos e ASO emitidos",
+        description:
+          "Receba Atestados de Saúde Ocupacional (ASO) e documentos obrigatórios emitidos por profissionais qualificados e dentro dos prazos necessários.",
+      },
+
+      {
+        title: "Redução de riscos trabalhistas",
+        description:
+          "Garanta o acompanhamento da saúde dos colaboradores e fortaleça a segurança jurídica da empresa em situações trabalhistas e previdenciárias.",
+      },
     ],
 
     introTitle: "O que são os Exames Ocupacionais?",
-
     introText:
-      "Os exames ocupacionais são obrigatórios para monitorar a saúde dos trabalhadores e garantir que a empresa esteja em conformidade com as exigências da Medicina do Trabalho.",
+      "Os exames ocupacionais são fundamentais para acompanhar a saúde dos trabalhadores e garantir que sua empresa esteja em conformidade com as exigências da legislação trabalhista. Realizamos exames admissionais, periódicos, demissionais, de retorno ao trabalho e mudança de função com agilidade e segurança.",
 
     faq: [
       {
@@ -103,17 +173,21 @@ export const servicos: ServiceData[] = [
     ],
 
     seo: {
-      title: "Exames Ocupacionais | Admissional, Periódico e Demissional",
+      title: "Exames Ocupacionais | Admissional, Periódico, Demissional e ASO",
 
       description:
-        "Realização de exames ocupacionais para empresas. Atendimento rápido, emissão de ASO e conformidade legal.",
+        "Realização de exames ocupacionais para empresas. Exames admissionais, periódicos, demissionais, retorno ao trabalho e emissão de ASO com rapidez e conformidade legal.",
 
       keywords: [
         "exames ocupacionais",
         "exame admissional",
         "exame periódico",
         "exame demissional",
+        "retorno ao trabalho",
+        "mudança de função",
         "ASO",
+        "medicina do trabalho",
+        "NR07",
       ],
     },
   },
@@ -127,16 +201,35 @@ export const servicos: ServiceData[] = [
     heroImage: "/ergonomia.webp",
 
     benefits: [
-      "Redução de afastamentos",
-      "Maior produtividade",
-      "Adequação à NR-17",
-      "Melhoria do ambiente de trabalho",
+      {
+        title: "Redução de afastamentos",
+        description:
+          "Identifique e corrija fatores ergonômicos que podem causar dores, lesões e afastamentos, reduzindo custos e impactos na operação da empresa.",
+      },
+
+      {
+        title: "Maior produtividade",
+        description:
+          "Colaboradores que trabalham com conforto e segurança tendem a produzir mais, cometer menos erros e apresentar melhor desempenho no dia a dia.",
+      },
+
+      {
+        title: "Adequação à NR-17",
+        description:
+          "Mantenha sua empresa em conformidade com a Norma Regulamentadora 17 e preparada para fiscalizações, auditorias e exigências legais.",
+      },
+
+      {
+        title: "Melhoria do ambiente de trabalho",
+        description:
+          "Promova mais qualidade de vida, conforto e bem-estar para sua equipe, fortalecendo o clima organizacional e a satisfação dos colaboradores.",
+      },
     ],
 
     introTitle: "O que é Ergonomia?",
 
     introText:
-      "A ergonomia adapta o ambiente de trabalho às características dos colaboradores, reduzindo riscos ocupacionais, aumentando o conforto e melhorando a produtividade.",
+      "A ergonomia adapta as condições de trabalho às características físicas e cognitivas dos colaboradores, reduzindo riscos ocupacionais, prevenindo lesões, aumentando a produtividade e garantindo conformidade com a NR-17.",
 
     faq: [
       {
@@ -150,12 +243,11 @@ export const servicos: ServiceData[] = [
           "A Análise Ergonômica do Trabalho (AET) é um estudo técnico que avalia as condições ergonômicas do ambiente laboral.",
       },
     ],
-
     seo: {
-      title: "Ergonomia para Empresas | Análise Ergonômica do Trabalho",
+      title: "Ergonomia para Empresas | AET e Adequação à NR-17",
 
       description:
-        "Serviços de ergonomia, AET e adequação à NR-17. Reduza riscos e aumente a produtividade da sua equipe.",
+        "Serviços de ergonomia empresarial, Análise Ergonômica do Trabalho (AET) e adequação à NR-17. Reduza afastamentos, aumente a produtividade e mantenha sua empresa em conformidade.",
 
       keywords: [
         "ergonomia",
@@ -163,6 +255,10 @@ export const servicos: ServiceData[] = [
         "análise ergonômica do trabalho",
         "NR17",
         "ergonomia empresarial",
+        "laudo ergonômico",
+        "ergonomia no trabalho",
+        "consultoria ergonomia",
+        "análise ergonômica",
       ],
     },
   },
@@ -176,17 +272,35 @@ export const servicos: ServiceData[] = [
     heroImage: "/ltcat.webp",
 
     benefits: [
-      "Conformidade previdenciária",
-      "Identificação de agentes nocivos",
-      "Documentação técnica completa",
-      "Segurança jurídica para a empresa",
+      {
+        title: "Conformidade previdenciária",
+        description:
+          "Atenda às exigências do INSS e da legislação previdenciária com um LTCAT elaborado por profissionais habilitados e atualizado conforme a realidade da empresa.",
+      },
+
+      {
+        title: "Identificação de agentes nocivos",
+        description:
+          "Avalie a exposição dos colaboradores a agentes físicos, químicos e biológicos que podem impactar a saúde ocupacional e gerar direitos previdenciários.",
+      },
+
+      {
+        title: "Documentação técnica completa",
+        description:
+          "Receba um laudo técnico detalhado e fundamentado, pronto para atender auditorias, fiscalizações e exigências legais.",
+      },
+
+      {
+        title: "Segurança jurídica para a empresa",
+        description:
+          "Reduza riscos de processos trabalhistas, questionamentos previdenciários e passivos relacionados à aposentadoria especial.",
+      },
     ],
 
     introTitle: "O que é o LTCAT?",
 
     introText:
-      "O LTCAT é um documento técnico elaborado por profissional habilitado para identificar a exposição dos trabalhadores a agentes nocivos e atender às exigências previdenciárias.",
-
+      "O LTCAT (Laudo Técnico das Condições Ambientais do Trabalho) é um documento obrigatório para empresas com exposição a agentes nocivos. Elaborado por profissional habilitado, ele identifica riscos ambientais e atende às exigências previdenciárias relacionadas à aposentadoria especial e ao eSocial.",
     faq: [
       {
         question: "O LTCAT é obrigatório?",
@@ -198,20 +312,39 @@ export const servicos: ServiceData[] = [
         answer:
           "O PGR é voltado para gerenciamento de riscos ocupacionais, enquanto o LTCAT possui foco previdenciário e aposentadoria especial.",
       },
+      {
+        question: "Quem pode elaborar o LTCAT?",
+        answer:
+          "O LTCAT deve ser elaborado por médico do trabalho ou engenheiro de segurança do trabalho legalmente habilitado.",
+      },
+      {
+        question: "Com que frequência o LTCAT deve ser atualizado?",
+        answer:
+          "Sempre que houver alterações nos ambientes de trabalho, processos produtivos ou exposição a agentes nocivos.",
+      },
+      {
+        question: "O LTCAT é utilizado no eSocial?",
+        answer:
+          "Sim. As informações do LTCAT podem servir de base para o preenchimento dos eventos SST enviados ao eSocial.",
+      },
     ],
 
     seo: {
       title: "LTCAT | Laudo Técnico das Condições Ambientais do Trabalho",
 
       description:
-        "Elaboração de LTCAT para empresas. Atendimento especializado e conformidade com as exigências previdenciárias.",
+        "Elaboração de LTCAT para empresas. Identificação de agentes nocivos, conformidade previdenciária e segurança jurídica para atender às exigências legais.",
 
       keywords: [
         "LTCAT",
-        "laudo técnico",
+        "Laudo Técnico das Condições Ambientais do Trabalho",
         "aposentadoria especial",
         "agentes nocivos",
+        "laudo previdenciário",
         "segurança do trabalho",
+        "LTCAT empresa",
+        "eSocial SST",
+        "consultoria SST",
       ],
     },
   },
@@ -226,17 +359,35 @@ export const servicos: ServiceData[] = [
     heroImage: "/esocial.webp",
 
     benefits: [
-      "Envio correto dos eventos SST",
-      "Evite multas e penalidades",
-      "Suporte especializado",
-      "Conformidade com o eSocial",
+      {
+        title: "Envio correto dos eventos SST",
+        description:
+          "Garanta o envio correto dos eventos S-2210, S-2220 e S-2240, evitando inconsistências e problemas com o Governo Federal.",
+      },
+
+      {
+        title: "Evite multas e penalidades",
+        description:
+          "Mantenha suas obrigações em dia e reduza os riscos de autuações causadas por informações incorretas ou ausência de envio dos eventos obrigatórios.",
+      },
+
+      {
+        title: "Suporte especializado",
+        description:
+          "Conte com uma equipe especializada em Saúde e Segurança do Trabalho para orientar sua empresa em todas as etapas do processo.",
+      },
+
+      {
+        title: "Conformidade com o eSocial",
+        description:
+          "Integre documentos como PGR, PCMSO, LTCAT e exames ocupacionais para manter sua empresa totalmente alinhada às exigências do eSocial.",
+      },
     ],
 
     introTitle: "O que é o eSocial SST?",
 
     introText:
-      "O eSocial SST é a obrigação de envio das informações de Saúde e Segurança do Trabalho ao Governo Federal por meio dos eventos S-2210, S-2220 e S-2240.",
-
+      "O eSocial SST é a obrigação legal de envio das informações de Saúde e Segurança do Trabalho ao Governo Federal. Nossa equipe realiza a gestão completa dos eventos obrigatórios, garantindo conformidade, segurança jurídica e tranquilidade para sua empresa.",
     faq: [
       {
         question: "Quem precisa enviar informações SST ao eSocial?",
@@ -248,21 +399,47 @@ export const servicos: ServiceData[] = [
         answer:
           "Os principais são S-2210 (CAT), S-2220 (Monitoramento da Saúde do Trabalhador) e S-2240 (Condições Ambientais do Trabalho).",
       },
+      {
+        question: "O envio do eSocial SST é obrigatório?",
+        answer:
+          "Sim. Empresas obrigadas ao eSocial devem transmitir os eventos relacionados à Saúde e Segurança do Trabalho conforme o cronograma vigente.",
+      },
+      {
+        question: "O que acontece se a empresa não enviar os eventos SST?",
+        answer:
+          "A empresa pode ficar sujeita a multas, autuações e inconsistências junto aos órgãos fiscalizadores.",
+      },
+      {
+        question: "Quais documentos são necessários para o eSocial SST?",
+        answer:
+          "Dependendo da atividade da empresa, podem ser necessários documentos como PGR, PCMSO, LTCAT, exames ocupacionais e avaliações ambientais.",
+      },
+      {
+        question: "Quais eventos SST precisam ser enviados?",
+        answer:
+          "Os principais eventos são S-2210 (CAT), S-2220 (Monitoramento da Saúde do Trabalhador) e S-2240 (Condições Ambientais do Trabalho).",
+      },
     ],
 
     seo: {
-      title: "eSocial SST | Gestão e Envio dos Eventos SST",
+      title: "eSocial SST | Gestão dos Eventos S-2210, S-2220 e S-2240",
 
       description:
-        "Gestão completa do eSocial SST para empresas. Envio dos eventos obrigatórios com segurança e conformidade.",
+        "Gestão completa do eSocial SST para empresas. Envio dos eventos obrigatórios com segurança, conformidade legal e suporte especializado.",
 
       keywords: [
-        "esocial SST",
+        "eSocial SST",
+        "eventos SST",
         "S2210",
         "S2220",
         "S2240",
-        "eventos SST",
+        "CAT eSocial",
+        "monitoramento da saúde do trabalhador",
+        "condições ambientais do trabalho",
         "medicina do trabalho",
+        "segurança do trabalho",
+        "consultoria eSocial SST",
+        "envio SST eSocial",
       ],
     },
   },
@@ -276,16 +453,35 @@ export const servicos: ServiceData[] = [
     heroImage: "/seguranca-do-trabalho.webp",
 
     benefits: [
-      "Redução de acidentes",
-      "Conformidade com as NRs",
-      "Menor risco de autuações",
-      "Ambiente de trabalho mais seguro",
+      {
+        title: "Redução de acidentes",
+        description:
+          "Implemente medidas preventivas que reduzem acidentes de trabalho, afastamentos e prejuízos operacionais para sua empresa.",
+      },
+
+      {
+        title: "Conformidade com as NRs",
+        description:
+          "Mantenha sua empresa alinhada às Normas Regulamentadoras e preparada para fiscalizações dos órgãos competentes.",
+      },
+
+      {
+        title: "Menor risco de autuações",
+        description:
+          "Evite multas, notificações e passivos trabalhistas por meio de uma gestão eficiente da Saúde e Segurança do Trabalho.",
+      },
+
+      {
+        title: "Ambiente de trabalho mais seguro",
+        description:
+          "Promova a proteção dos colaboradores e fortaleça a cultura de segurança dentro da organização.",
+      },
     ],
 
     introTitle: "O que é Segurança do Trabalho?",
 
     introText:
-      "A Segurança do Trabalho reúne ações e programas voltados para a prevenção de acidentes e doenças ocupacionais, protegendo colaboradores e empresas.",
+      "A Segurança do Trabalho reúne ações, programas e procedimentos voltados para a prevenção de acidentes e doenças ocupacionais. Além de proteger os colaboradores, uma gestão eficiente de SST ajuda a reduzir custos, evitar multas e garantir conformidade com a legislação vigente.",
 
     faq: [
       {
@@ -298,20 +494,40 @@ export const servicos: ServiceData[] = [
         answer:
           "As principais variam conforme o setor, mas NR-01, NR-06, NR-07, NR-09 e NR-17 estão entre as mais comuns.",
       },
+      {
+        question: "Quais empresas precisam cumprir as Normas Regulamentadoras?",
+        answer:
+          "Todas as empresas que possuem empregados registrados devem atender às exigências das Normas Regulamentadoras aplicáveis à sua atividade.",
+      },
+      {
+        question: "O que acontece se a empresa não cumprir as normas de SST?",
+        answer:
+          "A empresa pode sofrer multas, interdições, processos trabalhistas e responsabilização em casos de acidentes ocupacionais.",
+      },
+      {
+        question: "Quais documentos fazem parte da Segurança do Trabalho?",
+        answer:
+          "Dependendo da atividade da empresa, podem ser exigidos documentos como PGR, LTCAT, PCMSO, AET e laudos técnicos complementares.",
+      },
     ],
 
     seo: {
-      title: "Segurança do Trabalho para Empresas | Saúde e Vida",
+      title:
+        "Segurança do Trabalho para Empresas | Consultoria SST e Normas Regulamentadoras",
 
       description:
-        "Consultoria e gestão de Segurança do Trabalho para empresas. Reduza riscos, evite multas e proteja seus colaboradores.",
+        "Consultoria completa em Segurança do Trabalho para empresas. Reduza acidentes, atenda às Normas Regulamentadoras e evite multas trabalhistas.",
 
       keywords: [
         "segurança do trabalho",
         "consultoria SST",
+        "segurança ocupacional",
         "normas regulamentadoras",
-        "prevenção de acidentes",
         "SST",
+        "prevenção de acidentes",
+        "gestão de segurança do trabalho",
+        "engenharia de segurança",
+        "saúde e segurança do trabalho",
       ],
     },
   },
@@ -325,16 +541,35 @@ export const servicos: ServiceData[] = [
     heroImage: "/avaliacoes-ambientais.webp",
 
     benefits: [
-      "Identificação de riscos ocupacionais",
-      "Laudos técnicos especializados",
-      "Conformidade legal",
-      "Base para programas SST",
+      {
+        title: "Identificação de riscos ocupacionais",
+        description:
+          "Detecte agentes físicos, químicos e biológicos presentes no ambiente de trabalho antes que eles comprometam a saúde dos colaboradores e a segurança da operação.",
+      },
+
+      {
+        title: "Laudos técnicos especializados",
+        description:
+          "Receba avaliações realizadas por profissionais qualificados com equipamentos adequados e relatórios técnicos completos para auditorias e fiscalizações.",
+      },
+
+      {
+        title: "Conformidade legal",
+        description:
+          "Atenda às exigências das Normas Regulamentadoras e reduza riscos de autuações, multas e passivos trabalhistas relacionados à exposição ocupacional.",
+      },
+
+      {
+        title: "Base para programas SST",
+        description:
+          "Utilize informações precisas para elaboração e atualização de documentos como PGR, LTCAT, eSocial e demais programas de Saúde e Segurança do Trabalho.",
+      },
     ],
 
     introTitle: "O que são Avaliações Ambientais?",
 
     introText:
-      "As avaliações ambientais identificam agentes físicos, químicos e biológicos presentes no ambiente de trabalho para subsidiar programas de Saúde e Segurança do Trabalho.",
+      "As Avaliações Ambientais Ocupacionais identificam e quantificam agentes físicos, químicos e biológicos presentes no ambiente de trabalho. Esses levantamentos são fundamentais para a prevenção de doenças ocupacionais, atendimento às exigências legais e elaboração de programas de Saúde e Segurança do Trabalho.",
 
     faq: [
       {
@@ -347,20 +582,47 @@ export const servicos: ServiceData[] = [
         answer:
           "Dependendo das atividades exercidas e dos riscos presentes, elas podem ser exigidas para elaboração de documentos e programas legais.",
       },
+      {
+        question: "Quais agentes podem ser avaliados?",
+        answer:
+          "As avaliações podem identificar ruído, calor, vibração, poeiras, fumos metálicos, produtos químicos, agentes biológicos e diversos outros riscos ocupacionais.",
+      },
+      {
+        question: "As avaliações ambientais são obrigatórias?",
+        answer:
+          "Dependendo da atividade da empresa e dos riscos presentes, elas podem ser exigidas para elaboração de documentos como PGR, LTCAT e atendimento ao eSocial.",
+      },
+      {
+        question: "Qual a relação entre avaliações ambientais e o PGR?",
+        answer:
+          "As avaliações fornecem dados técnicos para identificação e controle dos riscos ocupacionais previstos no Programa de Gerenciamento de Riscos.",
+      },
+      {
+        question: "As avaliações ambientais auxiliam no eSocial?",
+        answer:
+          "Sim. Os resultados das avaliações servem como base para o correto preenchimento dos eventos de SST enviados ao eSocial.",
+      },
     ],
 
     seo: {
-      title: "Avaliações Ambientais Ocupacionais | Saúde e Vida",
+      title: "Avaliações Ambientais Ocupacionais | Higiene Ocupacional e SST",
 
       description:
-        "Avaliações ambientais para identificação de riscos ocupacionais e atendimento às exigências legais.",
+        "Realizamos avaliações ambientais ocupacionais para identificação de agentes físicos, químicos e biológicos. Atendimento especializado para PGR, LTCAT e eSocial.",
 
       keywords: [
         "avaliações ambientais",
         "higiene ocupacional",
-        "ruído ocupacional",
-        "agentes químicos",
         "agentes físicos",
+        "agentes químicos",
+        "agentes biológicos",
+        "ruído ocupacional",
+        "calor ocupacional",
+        "dosimetria de ruído",
+        "PGR",
+        "LTCAT",
+        "eSocial SST",
+        "segurança do trabalho",
       ],
     },
   },
@@ -374,17 +636,35 @@ export const servicos: ServiceData[] = [
     heroImage: "/treinamentos-sst.webp",
 
     benefits: [
-      "Capacitação dos colaboradores",
-      "Conformidade com as NRs",
-      "Redução de acidentes",
-      "Certificados e documentação",
+      {
+        title: "Capacitação dos colaboradores",
+        description:
+          "Prepare sua equipe para executar atividades com mais segurança, confiança e eficiência por meio de treinamentos teóricos e práticos.",
+      },
+
+      {
+        title: "Conformidade com as NRs",
+        description:
+          "Atenda às exigências das Normas Regulamentadoras e mantenha sua empresa preparada para auditorias, fiscalizações e exigências legais.",
+      },
+
+      {
+        title: "Redução de acidentes",
+        description:
+          "Treinamentos adequados ajudam a prevenir acidentes, afastamentos e falhas operacionais que podem gerar prejuízos para a empresa.",
+      },
+
+      {
+        title: "Certificados e documentação",
+        description:
+          "Receba certificados, listas de presença e toda a documentação necessária para comprovação da capacitação dos colaboradores.",
+      },
     ],
 
     introTitle: "Por que investir em Treinamentos SST?",
 
     introText:
-      "Os treinamentos de SST capacitam colaboradores para desempenharem suas atividades com segurança e em conformidade com as normas regulamentadoras.",
-
+      "Os Treinamentos de Saúde e Segurança do Trabalho são fundamentais para capacitar colaboradores, reduzir acidentes e garantir conformidade com as Normas Regulamentadoras. Oferecemos treinamentos personalizados para diferentes atividades e níveis de risco, com emissão de certificados e documentação completa.",
     faq: [
       {
         question: "Quais treinamentos podem ser realizados?",
@@ -396,20 +676,149 @@ export const servicos: ServiceData[] = [
         answer:
           "Sim. Os participantes recebem documentação e certificados conforme os requisitos aplicáveis.",
       },
+      {
+        question: "Quais treinamentos de SST são obrigatórios?",
+        answer:
+          "A obrigatoriedade depende da atividade desempenhada pelos colaboradores e dos riscos envolvidos. Entre os mais comuns estão NR-10, NR-33, NR-35 e treinamentos de integração de segurança.",
+      },
+      {
+        question: "Os treinamentos possuem validade?",
+        answer:
+          "Sim. Algumas Normas Regulamentadoras exigem reciclagens periódicas para manter a capacitação dos trabalhadores atualizada.",
+      },
+      {
+        question: "Os treinamentos podem ser realizados na empresa?",
+        answer:
+          "Sim. Dependendo da modalidade e da necessidade da empresa, os treinamentos podem ser realizados in company ou em local apropriado.",
+      },
+      {
+        question: "A empresa recebe certificados dos participantes?",
+        answer:
+          "Sim. Após a conclusão do treinamento, são emitidos certificados e registros que comprovam a capacitação dos colaboradores.",
+      },
     ],
 
     seo: {
-      title: "Treinamentos SST para Empresas | Saúde e Vida",
+      title: "Treinamentos SST para Empresas | NR-10, NR-33, NR-35 e Mais",
 
       description:
-        "Treinamentos de Saúde e Segurança do Trabalho com emissão de certificados e conformidade com as NRs.",
+        "Treinamentos de Saúde e Segurança do Trabalho com emissão de certificados. Capacite sua equipe e mantenha sua empresa em conformidade com as Normas Regulamentadoras.",
 
       keywords: [
         "treinamentos SST",
-        "NR35",
-        "NR33",
-        "NR10",
         "treinamento segurança do trabalho",
+        "NR10",
+        "NR33",
+        "NR35",
+        "treinamento trabalho em altura",
+        "treinamento espaço confinado",
+        "capacitação SST",
+        "certificado NR35",
+        "certificado NR33",
+        "normas regulamentadoras",
+        "segurança do trabalho",
+      ],
+    },
+  },
+  {
+    slug: "medicina-do-trabalho",
+
+    title: "Medicina do Trabalho",
+
+    description: "Soluções completas em Medicina do Trabalho para empresas",
+
+    heroImage: "/medicina-do-trabalho.webp",
+
+    benefits: [
+      {
+        title: "Conformidade com a legislação",
+        description:
+          "Mantenha sua empresa em conformidade com as exigências da Medicina do Trabalho e evite multas, notificações e passivos trabalhistas.",
+      },
+
+      {
+        title: "Gestão da saúde ocupacional",
+        description:
+          "Monitore a saúde dos colaboradores por meio de programas, exames e acompanhamentos que promovem mais segurança e qualidade de vida.",
+      },
+
+      {
+        title: "Redução de afastamentos",
+        description:
+          "Identifique riscos e problemas de saúde precocemente, reduzindo afastamentos, absenteísmo e impactos na produtividade.",
+      },
+
+      {
+        title: "Segurança jurídica para a empresa",
+        description:
+          "Conte com documentação técnica, laudos e processos adequados para proteger sua empresa em auditorias, fiscalizações e demandas trabalhistas.",
+      },
+    ],
+
+    introTitle: "O que é Medicina do Trabalho?",
+
+    introText:
+      "A Medicina do Trabalho é uma área especializada na promoção da saúde, prevenção de doenças ocupacionais e acompanhamento da saúde dos colaboradores. Por meio de programas obrigatórios, exames ocupacionais e gestão da saúde ocupacional, sua empresa reduz riscos, atende às exigências legais e protege seus trabalhadores.",
+
+    faq: [
+      {
+        question: "O que faz a Medicina do Trabalho?",
+        answer:
+          "A Medicina do Trabalho atua na prevenção de doenças ocupacionais, promoção da saúde dos colaboradores e atendimento às exigências legais relacionadas à saúde ocupacional.",
+      },
+
+      {
+        question: "Toda empresa precisa contratar Medicina do Trabalho?",
+        answer:
+          "Sim. Empresas que possuem empregados registrados precisam cumprir obrigações relacionadas à saúde ocupacional previstas na legislação trabalhista.",
+      },
+
+      {
+        question: "Quais serviços fazem parte da Medicina do Trabalho?",
+        answer:
+          "Exames ocupacionais, PCMSO, ASO, gestão de saúde ocupacional, monitoramento da saúde dos trabalhadores e suporte ao eSocial SST.",
+      },
+
+      {
+        question:
+          "Qual a diferença entre Medicina do Trabalho e Segurança do Trabalho?",
+        answer:
+          "A Medicina do Trabalho possui foco na saúde dos colaboradores, enquanto a Segurança do Trabalho atua na prevenção de acidentes e controle dos riscos ocupacionais.",
+      },
+
+      {
+        question: "O ASO é obrigatório?",
+        answer:
+          "Sim. O Atestado de Saúde Ocupacional (ASO) é obrigatório para admissão, exames periódicos, mudança de função, retorno ao trabalho e desligamento do colaborador.",
+      },
+
+      {
+        question: "O PCMSO é obrigatório?",
+        answer:
+          "Sim. O Programa de Controle Médico de Saúde Ocupacional é exigido para empresas que possuem empregados sob regime CLT.",
+      },
+    ],
+
+    seo: {
+      title:
+        "Medicina do Trabalho para Empresas | Exames, PCMSO e Saúde Ocupacional",
+
+      description:
+        "Soluções completas em Medicina do Trabalho para empresas. Exames ocupacionais, PCMSO, ASO, gestão da saúde ocupacional e conformidade legal.",
+
+      keywords: [
+        "medicina do trabalho",
+        "saúde ocupacional",
+        "PCMSO",
+        "ASO",
+        "exames ocupacionais",
+        "médico do trabalho",
+        "gestão de saúde ocupacional",
+        "consultoria medicina do trabalho",
+        "saúde e segurança do trabalho",
+        "NR07",
+        "eSocial SST",
+        "empresa de medicina do trabalho",
       ],
     },
   },

@@ -7,7 +7,10 @@ export interface ServiceData {
 
   heroImage: string;
 
-  benefits: string[];
+  benefits: {
+    title: string;
+    description: string;
+  }[];
 
   introTitle: string;
 
