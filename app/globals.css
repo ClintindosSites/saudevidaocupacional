@@ -214,6 +214,9 @@ h1 span {
   display: flex;
   gap: 1.6rem;
 }
+.heroForm {
+  display: none;
+}
 .heroForm form {
   display: flex;
   flex-direction: column;
