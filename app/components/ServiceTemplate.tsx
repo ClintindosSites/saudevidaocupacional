@@ -5,6 +5,10 @@ interface Props {
 }
 
 export default function ServiceTemplate({ service }: Props) {
+  const whatsappMessage = encodeURIComponent(
+    `Olá, vim do Google e gostaria de receber mais informações sobre ${service.title}`
+  );
+  const whatsappUrl = `https://wa.me/553135323016?text=${whatsappMessage}`;
   return (
     <>
       <section className="serviceHero hero">
@@ -13,8 +17,8 @@ export default function ServiceTemplate({ service }: Props) {
           <div className="text">
             <h1 className="title">{service.title}</h1>
             <p className="subtitle">{service.description}</p>
-            <a href="#contato" className="btnHeader">
-              Solicitar Orçamento
+            <a href={whatsappUrl} className="btnHeader">
+              {service.cta.buttonText}
             </a>
           </div>
         </div>
@@ -41,6 +45,9 @@ export default function ServiceTemplate({ service }: Props) {
               <p>{item.description}</p>
             </div>
           ))}
+          <a href={whatsappUrl} className="btnHeader">
+            Solicitar atendimento Agora
+          </a>
         </div>
       </section>
 
@@ -48,11 +55,10 @@ export default function ServiceTemplate({ service }: Props) {
         <div className="container">
           {" "}
           <h2>
-            Proteja a sua empresa com a nossa consultoria em <br />
-            <span className="text-[#89b5f1]">{service.title}</span>
+            <span className="text-[#89b5f1]">{service.cta.title}</span>
           </h2>
-          <a href="#contato" className="btnHeader">
-            Falar com um especialista
+          <a href={whatsappUrl} className="btnHeader">
+            {service.cta.buttonText}
           </a>
         </div>
       </section>

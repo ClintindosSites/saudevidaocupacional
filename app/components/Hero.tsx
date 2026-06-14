@@ -1,3 +1,5 @@
+import { whatsappUrl } from "@/constants/whatsapp";
+
 export default function Hero() {
   return (
     <section className="hero">
@@ -12,7 +14,7 @@ export default function Hero() {
             multas e proteja a saúde dos seus colaboradores com soluções
             completas em SST.
           </p>
-          <a href="#" className="btnHeader">
+          <a href={whatsappUrl} className="btnHeader">
             Fale direto no Whatsapp
           </a>
         </div>
@@ -33,6 +35,7 @@ export default function Hero() {
               <label htmlFor="address">Endereço completo:</label>
               <input type="text" name="address" />
             </div>
+            z
             <div>
               {" "}
               <label htmlFor="options">Selecione o serviço desejado:</label>

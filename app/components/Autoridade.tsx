@@ -1,6 +1,7 @@
 "use client";
 
 import Counter from "./Counter";
+import { whatsappUrl } from "@/constants/whatsapp";
 
 export default function Autoridade() {
   return (
@@ -39,7 +40,7 @@ export default function Autoridade() {
         </div>
 
         <a
-          href="https://wa.me/553135323016?text=Ol%C3%A1%2C%20vim%20do%20Google%20e%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es."
+          href={whatsappUrl}
           target="_blank"
           rel="noreferrer"
           className="btnHeader"

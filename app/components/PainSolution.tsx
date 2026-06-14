@@ -1,3 +1,4 @@
+import { whatsappUrl } from "@/constants/whatsapp";
 import Image from "next/image";
 
 export default function PainSolution() {
@@ -13,7 +14,7 @@ export default function PainSolution() {
             Empresas que não cumprem as exigências legais podem enfrentar
             multas, passivos trabalhistas e dificuldades com fiscalização.
           </p>
-          <a href="#" className="btnHeader">
+          <a href={whatsappUrl} className="btnHeader">
             Solicitar atendimento no WhatsApp
           </a>
         </div>

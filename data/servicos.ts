@@ -39,7 +39,13 @@ export const servicos: ServiceData[] = [
 
     introText:
       "O Programa de Controle Médico de Saúde Ocupacional é obrigatório para empresas e tem como objetivo monitorar a saúde dos trabalhadores.",
-
+    cta: {
+      title:
+        "Regularize o PCMSO da sua empresa e evite problemas com fiscalizações.",
+      buttonText: "Solicitar PCMSO",
+      whatsappMessage:
+        "Olá, vim do Google e gostaria de solicitar um orçamento para PCMSO.",
+    },
     faq: [
       {
         question: "Quem precisa ter PCMSO?",
@@ -99,7 +105,13 @@ export const servicos: ServiceData[] = [
 
     introText:
       "O Programa de Gerenciamento de Riscos (PGR) é obrigatório para empresas e tem como objetivo identificar, avaliar e controlar riscos ocupacionais, promovendo mais segurança, conformidade legal e proteção para colaboradores e empregadores.",
-
+    cta: {
+      title:
+        "Identifique e controle os riscos ocupacionais da sua empresa hoje mesmo.",
+      buttonText: "Solicitar PGR",
+      whatsappMessage:
+        "Olá, vim do Google e gostaria de solicitar um orçamento para elaboração de PGR.",
+    },
     faq: [],
 
     seo: {
@@ -158,7 +170,13 @@ export const servicos: ServiceData[] = [
     introTitle: "O que são os Exames Ocupacionais?",
     introText:
       "Os exames ocupacionais são fundamentais para acompanhar a saúde dos trabalhadores e garantir que sua empresa esteja em conformidade com as exigências da legislação trabalhista. Realizamos exames admissionais, periódicos, demissionais, de retorno ao trabalho e mudança de função com agilidade e segurança.",
-
+    cta: {
+      title:
+        "Agende os exames ocupacionais da sua equipe com rapidez e segurança.",
+      buttonText: "Agendar Exames",
+      whatsappMessage:
+        "Olá, vim do Google e gostaria de agendar exames ocupacionais para minha empresa.",
+    },
     faq: [
       {
         question: "Quais exames ocupacionais são obrigatórios?",
@@ -230,7 +248,12 @@ export const servicos: ServiceData[] = [
 
     introText:
       "A ergonomia adapta as condições de trabalho às características físicas e cognitivas dos colaboradores, reduzindo riscos ocupacionais, prevenindo lesões, aumentando a produtividade e garantindo conformidade com a NR-17.",
-
+    cta: {
+      title: "Reduza afastamentos e melhore a produtividade da sua equipe.",
+      buttonText: "Solicitar Análise Ergonômica",
+      whatsappMessage:
+        "Olá, vim do Google e gostaria de solicitar uma análise ergonômica para minha empresa.",
+    },
     faq: [
       {
         question: "Quando a empresa precisa realizar uma análise ergonômica?",
@@ -298,7 +321,13 @@ export const servicos: ServiceData[] = [
     ],
 
     introTitle: "O que é o LTCAT?",
-
+    cta: {
+      title:
+        "Garanta conformidade previdenciária e segurança jurídica para sua empresa.",
+      buttonText: "Solicitar LTCAT",
+      whatsappMessage:
+        "Olá, vim do Google e gostaria de solicitar um orçamento para elaboração de LTCAT.",
+    },
     introText:
       "O LTCAT (Laudo Técnico das Condições Ambientais do Trabalho) é um documento obrigatório para empresas com exposição a agentes nocivos. Elaborado por profissional habilitado, ele identifica riscos ambientais e atende às exigências previdenciárias relacionadas à aposentadoria especial e ao eSocial.",
     faq: [
@@ -388,6 +417,14 @@ export const servicos: ServiceData[] = [
 
     introText:
       "O eSocial SST é a obrigação legal de envio das informações de Saúde e Segurança do Trabalho ao Governo Federal. Nossa equipe realiza a gestão completa dos eventos obrigatórios, garantindo conformidade, segurança jurídica e tranquilidade para sua empresa.",
+
+    cta: {
+      title: "Evite multas e mantenha os eventos SST do eSocial em dia.",
+      buttonText: "Regularizar eSocial SST",
+      whatsappMessage:
+        "Olá, preciso de ajuda com os eventos SST do eSocial da minha empresa.",
+    },
+
     faq: [
       {
         question: "Quem precisa enviar informações SST ao eSocial?",
@@ -483,6 +520,14 @@ export const servicos: ServiceData[] = [
     introText:
       "A Segurança do Trabalho reúne ações, programas e procedimentos voltados para a prevenção de acidentes e doenças ocupacionais. Além de proteger os colaboradores, uma gestão eficiente de SST ajuda a reduzir custos, evitar multas e garantir conformidade com a legislação vigente.",
 
+    cta: {
+      title:
+        "Proteja seus colaboradores e mantenha sua empresa em conformidade.",
+      buttonText: "Falar com um Especialista",
+      whatsappMessage:
+        "Olá, vim do Google e gostaria de uma consultoria em Segurança do Trabalho.",
+    },
+
     faq: [
       {
         question: "Toda empresa precisa investir em Segurança do Trabalho?",
@@ -570,6 +615,14 @@ export const servicos: ServiceData[] = [
 
     introText:
       "As Avaliações Ambientais Ocupacionais identificam e quantificam agentes físicos, químicos e biológicos presentes no ambiente de trabalho. Esses levantamentos são fundamentais para a prevenção de doenças ocupacionais, atendimento às exigências legais e elaboração de programas de Saúde e Segurança do Trabalho.",
+
+    cta: {
+      title:
+        "Identifique riscos ambientais antes que eles se transformem em problemas.",
+      buttonText: "Solicitar Avaliação",
+      whatsappMessage:
+        "Olá, vim do Google e gostaria de solicitar uma avaliação ambiental ocupacional.",
+    },
 
     faq: [
       {
@@ -665,6 +718,14 @@ export const servicos: ServiceData[] = [
 
     introText:
       "Os Treinamentos de Saúde e Segurança do Trabalho são fundamentais para capacitar colaboradores, reduzir acidentes e garantir conformidade com as Normas Regulamentadoras. Oferecemos treinamentos personalizados para diferentes atividades e níveis de risco, com emissão de certificados e documentação completa.",
+
+    cta: {
+      title: "Capacite sua equipe e reduza os riscos de acidentes no trabalho.",
+      buttonText: "Solicitar Treinamento",
+      whatsappMessage:
+        "Olá, vim do Google e gostaria de mais informações sobre treinamentos de SST.",
+    },
+
     faq: [
       {
         question: "Quais treinamentos podem ser realizados?",
@@ -759,7 +820,13 @@ export const servicos: ServiceData[] = [
 
     introText:
       "A Medicina do Trabalho é uma área especializada na promoção da saúde, prevenção de doenças ocupacionais e acompanhamento da saúde dos colaboradores. Por meio de programas obrigatórios, exames ocupacionais e gestão da saúde ocupacional, sua empresa reduz riscos, atende às exigências legais e protege seus trabalhadores.",
-
+    cta: {
+      title:
+        "Cuide da saúde dos seus colaboradores e mantenha sua empresa em conformidade.",
+      buttonText: "Solicitar Consultoria",
+      whatsappMessage:
+        "Olá, vim do Google e gostaria de conhecer as soluções de Medicina do Trabalho para minha empresa.",
+    },
     faq: [
       {
         question: "O que faz a Medicina do Trabalho?",

@@ -1,3 +1,5 @@
+import { whatsappUrl } from "@/constants/whatsapp";
+
 export default function Beneficios() {
   return (
     <section className="beneficios">
@@ -32,6 +34,9 @@ export default function Beneficios() {
             <h3>Gestão Simplificada</h3>
             <p>Documentação organizada e suporte especializado.</p>
           </div>
+          <a href={whatsappUrl} className="btnHeader">
+            Solicitar consultoria no WhatsApp
+          </a>
         </div>
       </div>
     </section>

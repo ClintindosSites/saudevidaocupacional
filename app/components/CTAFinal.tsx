@@ -1,3 +1,5 @@
+import { whatsappUrl } from "@/constants/whatsapp";
+
 export default function CTAFinal() {
   return (
     <section className="ctaFinal">
@@ -24,8 +26,8 @@ export default function CTAFinal() {
           <div>✓ Redução de riscos trabalhistas</div>
         </div>
 
-        <a href="#formulario" className="btnCTA">
-          Solicitar Orçamento Gratuito
+        <a href={whatsappUrl} className="btnCTA">
+          Solicitar Orçamento
         </a>
       </div>
     </section>

@@ -1,5 +1,57 @@
-import Image from "next/image";
 import Link from "next/link";
+
+const servicosHome = [
+  {
+    title: "PCMSO",
+    slug: "pcmso",
+    image: "/pcmso-card.webp",
+    description: "Programa de Controle Médico de Saúde Ocupacional",
+    whatsapp:
+      "Olá, vim do Google e gostaria de solicitar um orçamento para PCMSO.",
+  },
+  {
+    title: "PGR",
+    slug: "pgr",
+    image: "/pgr-card.webp",
+    description: "Programa de Gerenciamento de Riscos.",
+    whatsapp:
+      "Olá, vim do Google e gostaria de solicitar um orçamento para elaboração de PGR.",
+  },
+  {
+    title: "Exames Ocupacionais",
+    slug: "exames-ocupacionais",
+    image: "/exame-ocupacional-card.webp",
+    description:
+      "Admissional, Demissional, Periódico, Retorno ao Trabalho e Mudança de Função.",
+    whatsapp:
+      "Olá, vim do Google e gostaria de agendar exames ocupacionais para minha empresa.",
+  },
+  {
+    title: "LTCAT",
+    slug: "ltcat",
+    image: "/ltcat-card.webp",
+    description: "Laudo Técnico das Condições Ambientais do Trabalho.",
+    whatsapp:
+      "Olá, vim do Google e gostaria de solicitar um orçamento para elaboração de LTCAT.",
+  },
+  {
+    title: "eSocial SST",
+    slug: "esocial",
+    image: "/eSocial-card.webp",
+    description: "Envio correto e seguro dos eventos obrigatórios.",
+    whatsapp:
+      "Olá, preciso de ajuda com os eventos SST do eSocial da minha empresa.",
+  },
+  {
+    title: "Ergonomia",
+    slug: "ergonomia",
+    image: "/ergonomia-card.webp",
+    description:
+      "AET e avaliações ergonômicas para adequação às normas vigentes.",
+    whatsapp:
+      "Olá, vim do Google e gostaria de solicitar uma análise ergonômica para minha empresa.",
+  },
+];
 
 export default function Servicos() {
   return (
@@ -10,114 +62,42 @@ export default function Servicos() {
           <p></p>
         </div>
         <div className="servicos-grid">
-          <div className="servico-item">
-            <div className="item-img">
-              <img src={"/pcmso-card.webp"} alt="pcmso" />
-            </div>
-            <div className="item-text">
-              <h3>PCMSO</h3>
-              <p>Programa de Controle Médico de Saúde Ocupacional</p>
-            </div>
-            <div className="buttons">
-              <Link href={"/servicos/"} className="saibaMais">
-                Saiba mais
-              </Link>
-              <a href="#" className="WhatsAppBtn">
-                Atendimento no WhatsApp
-              </a>
-            </div>
-          </div>
-          <div className="servico-item">
-            <div className="item-img">
-              <img src={"/pgr-card.webp"} alt="pcmso" />
-            </div>{" "}
-            <div className="item-text">
-              <h3>PGR</h3>
-              <p>Programa de Gerenciamento de Riscos.</p>
-            </div>
-            <div className="buttons">
-              <Link href={"/servicos/"} className="saibaMais">
-                Saiba mais
-              </Link>
-              <a href="#" className="WhatsAppBtn">
-                Atendimento no WhatsApp
-              </a>
-            </div>
-          </div>
-          <div className="servico-item">
-            <div className="item-img">
-              <img src={"/exame-ocupacional-card.webp"} alt="pcmso" />
-            </div>
-            <div className="item-text">
-              <h3>Exames Ocupacionais</h3>
-              <p>
-                Admissional, Demissional, Periódico, Retorno ao Trabalho e
-                Mudança de Função.
-              </p>
-            </div>
-            <div className="buttons">
-              <Link href={"/servicos/"} className="saibaMais">
-                Saiba mais
-              </Link>
-              <a href="#" className="WhatsAppBtn">
-                Atendimento no WhatsApp
-              </a>
-            </div>
-          </div>
-          <div className="servico-item">
-            <div className="item-img">
-              <img src={"/ltcat-card.webp"} alt="pcmso" />
-            </div>
-            <div className="item-text">
-              <h3>LTCAT</h3>
-              <p>Laudo Técnico das Condições Ambientais do Trabalho.</p>
-            </div>
-            <div className="buttons">
-              <Link href={"/servicos/"} className="saibaMais">
-                Saiba mais
-              </Link>
-              <a href="#" className="WhatsAppBtn">
-                Atendimento no WhatsApp
-              </a>
-            </div>
-          </div>
-          <div className="servico-item">
-            {" "}
-            <div className="item-text">
-              <div className="item-img">
-                <img src={"/eSocial-card.webp"} alt="pcmso" />
+          {servicosHome.map(servico => {
+            const whatsappUrl = `https://wa.me/553135323016?text=${encodeURIComponent(
+              servico.whatsapp
+            )}`;
+
+            return (
+              <div className="servico-item" key={servico.slug}>
+                <div className="item-img">
+                  <img src={servico.image} alt={servico.title} />
+                </div>
+
+                <div className="item-text">
+                  <h3>{servico.title}</h3>
+                  <p>{servico.description}</p>
+                </div>
+
+                <div className="buttons">
+                  <Link
+                    href={`/servicos/${servico.slug}`}
+                    className="saibaMais"
+                  >
+                    Saiba mais
+                  </Link>
+
+                  <a
+                    href={whatsappUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="WhatsAppBtn"
+                  >
+                    Atendimento no WhatsApp
+                  </a>
+                </div>
               </div>
-              <h3>eSocial</h3>
-              <p>Envio correto e seguro dos eventos obrigatórios.</p>
-            </div>
-            <div className="buttons">
-              <Link href={"/servicos/"} className="saibaMais">
-                Saiba mais
-              </Link>
-              <a href="#" className="WhatsAppBtn">
-                Atendimento no WhatsApp
-              </a>
-            </div>
-          </div>
-          <div className="servico-item">
-            <div className="item-img">
-              <img src={"/ergonomia-card.webp"} alt="pcmso" />
-            </div>
-            <div className="item-text">
-              <h3>Ergonomia</h3>
-              <p>
-                AET e avaliações ergonômicas para adequação às normas vigentes.
-              </p>
-            </div>
-            <div className="buttons">
-              <Link href={"/servicos/"} className="saibaMais">
-                Saiba mais
-              </Link>
-              <a href="#" className="WhatsAppBtn">
-                Atendimento no WhatsApp
-              </a>
-            </div>
-          </div>
+            );
+          })}
         </div>
       </div>
     </section>

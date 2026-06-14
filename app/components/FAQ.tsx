@@ -1,5 +1,6 @@
 "use client";
 
+import { whatsappUrl } from "@/constants/whatsapp";
 import { useState } from "react";
 
 const faqs = [
@@ -72,6 +73,10 @@ export default function FAQ() {
             </div>
           ))}
         </div>
+
+        <a href={whatsappUrl} className="btnHeader">
+          Falar com um especialista
+        </a>
       </div>
     </section>
   );

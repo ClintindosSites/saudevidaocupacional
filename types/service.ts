@@ -16,6 +16,12 @@ export interface ServiceData {
 
   introText: string;
 
+  cta: {
+    title: string;
+    buttonText: string;
+    whatsappMessage: string;
+  };
+
   faq: {
     question: string;
     answer: string;

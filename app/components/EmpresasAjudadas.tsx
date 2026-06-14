@@ -1,3 +1,5 @@
+import { whatsappUrl } from "@/constants/whatsapp";
+
 const linha1 = [
   "/awema.webp",
   "/bom-beef.webp",
@@ -59,7 +61,7 @@ export default function EmpresasAjudadas() {
           <LogoRow logos={linha2} />
           <LogoRow logos={linha3} />
         </div>
-        <a href="#" className="btnHeader">
+        <a href={whatsappUrl} className="btnHeader">
           Fale conosco e seja nosso cliente{" "}
         </a>
       </div>

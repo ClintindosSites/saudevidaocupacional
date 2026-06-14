@@ -1,4 +1,7 @@
 "use client";
+
+import { whatsappUrl } from "@/constants/whatsapp";
+
 const reviews = [
   {
     nome: "Carlos Henrique",
@@ -65,6 +68,9 @@ export default function Avaliacoes() {
             </div>
           ))}
         </div>
+        <a href={whatsappUrl} className="btnHeader">
+          Falar com um especialista
+        </a>
       </div>
     </section>
   );
