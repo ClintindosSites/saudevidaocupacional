@@ -25,7 +25,7 @@ const linha3 = [
   "/shieldguard-light.webp",
   "/so-borrachas.webp",
   "/sorvetes-top.webp",
-  "/spotlight0light.webp",
+  "/spotlight-light.webp",
   "/tecshen.webp",
 ];
 function LogoRow({ logos }: { logos: string[] }) {
@@ -46,7 +46,10 @@ export default function EmpresasAjudadas() {
         <div className="headerSection">
           <span>EMPRESAS ATENDIDAS</span>
 
-          <h2>Empresas que confiam na Saúde e Vida</h2>
+          <h2>
+            Empresas que confiam na <br />{" "}
+            <span className="red">Saúde e Vida Ocupacional</span>
+          </h2>
 
           <p>
             Há anos ajudamos organizações a manterem conformidade com as normas

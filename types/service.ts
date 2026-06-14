@@ -4,9 +4,12 @@ export interface ServiceData {
   title: string;
 
   description: string;
-
+  hero: {
+    title: string;
+    subtitle: string;
+  };
   heroImage: string;
-
+  painImage: string;
   benefits: {
     title: string;
     description: string;

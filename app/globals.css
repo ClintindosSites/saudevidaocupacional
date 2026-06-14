@@ -1229,3 +1229,67 @@ option {
     display: none;
   }
 }
+.provasSociais .headerSection h2 {
+  line-height: 1;
+}
+.provasSociais .headerSection h2 span {
+  color: #ec3035;
+}
+.dor .container {
+  display: block;
+}
+
+.dor-content {
+  display: grid;
+  grid-template-columns: 1fr 500px;
+  gap: 4rem;
+  align-items: center;
+}
+
+.dor-image img {
+  width: 100%;
+  max-width: 500px;
+  aspect-ratio: 1/1;
+
+  object-fit: cover;
+
+  border-radius: 24px;
+
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.dor .text {
+  gap: 1.5rem;
+}
+
+.dor .text h2 {
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.1;
+}
+
+.dor .text p {
+  font-size: 1.15rem;
+  color: #555;
+  line-height: 1.8;
+}
+@media (max-width: 900px) {
+  .dor-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .dor-image {
+    order: -1;
+  }
+
+  .dor-image img {
+    max-width: 100%;
+  }
+}
+.dor-image img {
+  transition: 0.4s;
+}
+
+.dor-image img:hover {
+  transform: translateY(-6px);
+}

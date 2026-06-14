@@ -15,8 +15,8 @@ export default function ServiceTemplate({ service }: Props) {
         <div className="container">
           {" "}
           <div className="text">
-            <h1 className="title">{service.title}</h1>
-            <p className="subtitle">{service.description}</p>
+            <h1 className="title">{service.hero.title}</h1>
+            <p className="subtitle">{service.hero.subtitle}</p>
             <a href={whatsappUrl} className="btnHeader">
               {service.cta.buttonText}
             </a>
@@ -26,10 +26,25 @@ export default function ServiceTemplate({ service }: Props) {
 
       <section className="dor">
         <div className="container">
-          <div className="text">
-            {" "}
-            <h2>{service.introTitle}</h2>
-            <p className="subtitle">{service.introText}</p>
+          <div className="dor-content">
+            <div className="text">
+              <h2>{service.introTitle}</h2>
+
+              <p className="subtitle">{service.introText}</p>
+
+              <a
+                href={whatsappUrl}
+                className="btnHeader"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Falar com um especialista
+              </a>
+            </div>
+
+            <div className="dor-image">
+              <img src={service.painImage} alt={service.title} loading="lazy" />
+            </div>
           </div>
         </div>
       </section>

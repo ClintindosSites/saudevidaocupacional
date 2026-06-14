@@ -7,8 +7,14 @@ export const servicos: ServiceData[] = [
     title: "PCMSO",
 
     description: "Programa de Controle Médico de Saúde Ocupacional",
+    hero: {
+      title: "Regularize o PCMSO da sua empresa e evite multas trabalhistas.",
+      subtitle:
+        "Implantação e gestão completa do Programa de Controle Médico de Saúde Ocupacional para empresas de todos os portes.",
+    },
 
     heroImage: "/pcmso.webp",
+    painImage: "/pcmso-image.webp",
 
     benefits: [
       {
@@ -68,8 +74,15 @@ export const servicos: ServiceData[] = [
     title: "PGR",
 
     description: "Programa de Gerenciamento de Riscos",
+    hero: {
+      title:
+        "Elabore o PGR da sua empresa e mantenha-se em conformidade com a NR-01.",
+      subtitle:
+        "Identifique, avalie e controle riscos ocupacionais com suporte especializado.",
+    },
 
     heroImage: "/pgr-card.webp",
+    painImage: "/pgr-image.webp",
 
     benefits: [
       {
@@ -139,7 +152,15 @@ export const servicos: ServiceData[] = [
     description:
       "Exames Admissionais, Periódicos, Demissionais e Retorno ao Trabalho",
 
+    hero: {
+      title:
+        "Agende os exames ocupacionais da sua equipe com rapidez e segurança.",
+      subtitle:
+        "Exames admissionais, periódicos, demissionais e ASO com atendimento ágil.",
+    },
+
     heroImage: "/exames-ocupacionais.webp",
+    painImage: "/exames-ocupacionais-image.webp",
 
     benefits: [
       {
@@ -215,9 +236,14 @@ export const servicos: ServiceData[] = [
     title: "Ergonomia",
 
     description: "Análise Ergonômica do Trabalho e Adequação à NR-17",
+    hero: {
+      title: "Reduza afastamentos e aumente a produtividade da sua equipe.",
+      subtitle:
+        "Análise Ergonômica do Trabalho (AET) e adequação completa à NR-17.",
+    },
 
     heroImage: "/ergonomia.webp",
-
+    painImage: "/ergonomia-sst-image.webp",
     benefits: [
       {
         title: "Redução de afastamentos",
@@ -291,8 +317,14 @@ export const servicos: ServiceData[] = [
     title: "LTCAT",
 
     description: "Laudo Técnico das Condições Ambientais do Trabalho",
-
+    hero: {
+      title:
+        "Garanta conformidade previdenciária e proteja sua empresa de passivos.",
+      subtitle:
+        "Elaboração de LTCAT por profissionais habilitados para atender às exigências legais.",
+    },
     heroImage: "/ltcat.webp",
+    painImage: "/ltcat-image.webp",
 
     benefits: [
       {
@@ -384,8 +416,13 @@ export const servicos: ServiceData[] = [
 
     description:
       "Envio dos Eventos de Saúde e Segurança do Trabalho para o eSocial",
-
+    hero: {
+      title: "Evite multas e mantenha os eventos SST do eSocial em dia.",
+      subtitle:
+        "Gestão completa dos eventos S-2210, S-2220 e S-2240 para sua empresa.",
+    },
     heroImage: "/esocial.webp",
+    painImage: "/eSocial-sst-image.webp",
 
     benefits: [
       {
@@ -488,6 +525,14 @@ export const servicos: ServiceData[] = [
     description: "Gestão de Segurança do Trabalho para Empresas",
 
     heroImage: "/seguranca-do-trabalho.webp",
+    painImage: "/seguranca-do-trabalho-image.webp",
+
+    hero: {
+      title:
+        "Proteja seus colaboradores e mantenha sua empresa em conformidade.",
+      subtitle:
+        "Consultoria completa em Segurança do Trabalho e Normas Regulamentadoras.",
+    },
 
     benefits: [
       {
@@ -582,8 +627,15 @@ export const servicos: ServiceData[] = [
     title: "Avaliações Ambientais",
 
     description: "Avaliação de Agentes Físicos, Químicos e Biológicos",
+    hero: {
+      title:
+        "Identifique riscos ocupacionais antes que eles se transformem em prejuízos.",
+      subtitle:
+        "Avaliações ambientais para PGR, LTCAT e eSocial realizadas por especialistas.",
+    },
 
     heroImage: "/avaliacoes-ambientais.webp",
+    painImage: "/avaliacoes-ambientais-image.webp",
 
     benefits: [
       {
@@ -685,8 +737,13 @@ export const servicos: ServiceData[] = [
     title: "Treinamentos SST",
 
     description: "Treinamentos de Saúde e Segurança do Trabalho",
-
+    hero: {
+      title: "Capacite sua equipe e reduza os riscos de acidentes no trabalho.",
+      subtitle:
+        "Treinamentos NR-10, NR-33, NR-35 e diversos outros com emissão de certificados.",
+    },
     heroImage: "/treinamentos-sst.webp",
+    painImage: "/treinamentos-sst-image.webp",
 
     benefits: [
       {
@@ -787,8 +844,14 @@ export const servicos: ServiceData[] = [
     title: "Medicina do Trabalho",
 
     description: "Soluções completas em Medicina do Trabalho para empresas",
-
+    hero: {
+      title:
+        "Sua empresa está em conformidade com as exigências da Medicina do Trabalho?",
+      subtitle:
+        "Proteja seus colaboradores, reduza riscos e evite problemas trabalhistas com uma gestão completa de SST.",
+    },
     heroImage: "/medicina-do-trabalho.webp",
+    painImage: "/medicina-do-trabalho-image.webp",
 
     benefits: [
       {
