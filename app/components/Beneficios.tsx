@@ -34,10 +34,10 @@ export default function Beneficios() {
             <h3>Gestão Simplificada</h3>
             <p>Documentação organizada e suporte especializado.</p>
           </div>
-          <a href={whatsappUrl} className="btnHeader">
-            Solicitar consultoria no WhatsApp
-          </a>
         </div>
+        <a href={whatsappUrl} className="btnHeader">
+          Solicitar consultoria no WhatsApp
+        </a>
       </div>
     </section>
   );

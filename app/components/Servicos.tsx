@@ -43,11 +43,11 @@ const servicosHome = [
       "Olá, preciso de ajuda com os eventos SST do eSocial da minha empresa.",
   },
   {
-    title: "Ergonomia",
+    title: "Ergonomia - AEP/AET",
     slug: "ergonomia",
     image: "/ergonomia-card.webp",
     description:
-      "AET e avaliações ergonômicas para adequação às normas vigentes.",
+      "Ergonomia - AEP/AET e avaliação dos fatores de riscos psicossociais no trabalho",
     whatsapp:
       "Olá, vim do Google e gostaria de solicitar uma análise ergonômica para minha empresa.",
   },

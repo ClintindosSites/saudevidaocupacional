@@ -5,8 +5,13 @@ export const servicos: ServiceData[] = [
     slug: "pcmso",
 
     title: "PCMSO",
+    benefitsSection: {
+      title: "Por que investir em um PCMSO bem estruturado?",
+      subtitle:
+        "Proteja seus colaboradores e mantenha sua empresa em conformidade com a legislação.",
+    },
 
-    description: "Programa de Controle Médico de Saúde Ocupacional",
+    description: "Programa de Controle Médico de Saúde Ocupacional.",
     hero: {
       title: "Regularize o PCMSO da sua empresa e evite multas trabalhistas.",
       subtitle:
@@ -18,27 +23,27 @@ export const servicos: ServiceData[] = [
 
     benefits: [
       {
-        title: "Redução de afastamentos",
+        title: "Conformidade com a NR-07",
         description:
-          "Identifique riscos ergonômicos antes que eles gerem lesões, afastamentos e prejuízos para sua empresa.",
+          "Mantenha sua empresa em conformidade com as exigências do Programa de Controle Médico de Saúde Ocupacional e evite multas e autuações.",
       },
 
       {
-        title: "Maior produtividade",
+        title: "Gestão dos exames ocupacionais",
         description:
-          "Colaboradores mais confortáveis e seguros tendem a produzir mais e com melhor desempenho.",
+          "Organize exames admissionais, periódicos, demissionais, de retorno ao trabalho e mudança de função com acompanhamento especializado.",
       },
 
       {
-        title: "Adequação à NR-17",
+        title: "Prevenção de doenças ocupacionais",
         description:
-          "Atenda às exigências da legislação trabalhista e mantenha sua empresa preparada para fiscalizações.",
+          "Monitore a saúde dos colaboradores de forma preventiva, identificando riscos antes que eles resultem em afastamentos e prejuízos.",
       },
 
       {
-        title: "Melhoria do ambiente de trabalho",
+        title: "Segurança jurídica para a empresa",
         description:
-          "Promova mais conforto, bem-estar e qualidade de vida para sua equipe.",
+          "Conte com documentação médica atualizada para proteger sua empresa em fiscalizações, auditorias e demandas trabalhistas.",
       },
     ],
     introTitle: "O que é o PCMSO?",
@@ -72,6 +77,11 @@ export const servicos: ServiceData[] = [
     slug: "pgr",
 
     title: "PGR",
+    benefitsSection: {
+      title: "Como o PGR ajuda a reduzir riscos e evitar prejuízos?",
+      subtitle:
+        "Um programa de gerenciamento de riscos eficiente protege pessoas e fortalece sua operação.",
+    },
 
     description: "Programa de Gerenciamento de Riscos",
     hero: {
@@ -148,15 +158,20 @@ export const servicos: ServiceData[] = [
     slug: "exames-ocupacionais",
 
     title: "Exames Ocupacionais",
+    benefitsSection: {
+      title: "Por que realizar os exames ocupacionais corretamente?",
+      subtitle:
+        "Agilidade, conformidade legal e mais segurança para sua empresa.",
+    },
 
     description:
-      "Exames Admissionais, Periódicos, Demissionais e Retorno ao Trabalho",
+      "Exames Ocupacionais, Periódicos, Demissionais e Retorno ao Trabalho",
 
     hero: {
       title:
         "Agende os exames ocupacionais da sua equipe com rapidez e segurança.",
       subtitle:
-        "Exames admissionais, periódicos, demissionais e ASO com atendimento ágil.",
+        "Exames Ocupacionais, periódicos, demissionais e ASO com atendimento ágil.",
     },
 
     heroImage: "/exames-ocupacionais.webp",
@@ -190,7 +205,7 @@ export const servicos: ServiceData[] = [
 
     introTitle: "O que são os Exames Ocupacionais?",
     introText:
-      "Os exames ocupacionais são fundamentais para acompanhar a saúde dos trabalhadores e garantir que sua empresa esteja em conformidade com as exigências da legislação trabalhista. Realizamos exames admissionais, periódicos, demissionais, de retorno ao trabalho e mudança de função com agilidade e segurança.",
+      "Os exames ocupacionais são fundamentais para acompanhar a saúde dos trabalhadores e garantir que sua empresa esteja em conformidade com as exigências da legislação trabalhista. Realizamos Exames Ocupacionais, periódicos, demissionais, de retorno ao trabalho e mudança de função com agilidade e segurança.",
     cta: {
       title:
         "Agende os exames ocupacionais da sua equipe com rapidez e segurança.",
@@ -215,7 +230,7 @@ export const servicos: ServiceData[] = [
       title: "Exames Ocupacionais | Admissional, Periódico, Demissional e ASO",
 
       description:
-        "Realização de exames ocupacionais para empresas. Exames admissionais, periódicos, demissionais, retorno ao trabalho e emissão de ASO com rapidez e conformidade legal.",
+        "Realização de exames ocupacionais para empresas. Exames Ocupacionais, periódicos, demissionais, retorno ao trabalho e emissão de ASO com rapidez e conformidade legal.",
 
       keywords: [
         "exames ocupacionais",
@@ -233,13 +248,17 @@ export const servicos: ServiceData[] = [
   {
     slug: "ergonomia",
 
-    title: "Ergonomia",
+    title: "Ergonomia AET/AEP",
+    benefitsSection: {
+      title: "Como a Ergonomia pode transformar o ambiente de trabalho?",
+      subtitle: "Mais conforto, produtividade e menos afastamentos.",
+    },
 
     description: "Análise Ergonômica do Trabalho e Adequação à NR-17",
     hero: {
       title: "Reduza afastamentos e aumente a produtividade da sua equipe.",
       subtitle:
-        "Análise Ergonômica do Trabalho (AET) e adequação completa à NR-17.",
+        "Análise Ergonômica do Trabalho (AET), Avaliação Ergonômica Preliminar (AEP) e adequação completa à NR-17.",
     },
 
     heroImage: "/ergonomia.webp",
@@ -315,7 +334,11 @@ export const servicos: ServiceData[] = [
     slug: "ltcat",
 
     title: "LTCAT",
-
+    benefitsSection: {
+      title: "Por que o LTCAT é essencial para sua empresa?",
+      subtitle:
+        "Conformidade previdenciária e segurança jurídica para o seu negócio.",
+    },
     description: "Laudo Técnico das Condições Ambientais do Trabalho",
     hero: {
       title:
@@ -413,13 +436,16 @@ export const servicos: ServiceData[] = [
     slug: "eSocial",
 
     title: "eSocial SST",
-
+    benefitsSection: {
+      title: "Como evitar problemas com o eSocial SST?",
+      subtitle: "Mantenha os eventos obrigatórios em dia e evite multas.",
+    },
     description:
       "Envio dos Eventos de Saúde e Segurança do Trabalho para o eSocial",
     hero: {
-      title: "Evite multas e mantenha os eventos SST do eSocial em dia.",
+      title: "Evite multas e mantenha todos os eventos do eSocial SST em dia.",
       subtitle:
-        "Gestão completa dos eventos S-2210, S-2220 e S-2240 para sua empresa.",
+        "Gestão completa dos eventos S-2210, S-2220, S-2221 e S-2240 para sua empresa.",
     },
     heroImage: "/esocial.webp",
     painImage: "/eSocial-sst-image.webp",
@@ -428,7 +454,7 @@ export const servicos: ServiceData[] = [
       {
         title: "Envio correto dos eventos SST",
         description:
-          "Garanta o envio correto dos eventos S-2210, S-2220 e S-2240, evitando inconsistências e problemas com o Governo Federal.",
+          "Garanta o envio correto dos eventos S-2210, S-2220, S-2221 e S-2240, evitando inconsistências e problemas com o Governo Federal.",
       },
 
       {
@@ -471,7 +497,7 @@ export const servicos: ServiceData[] = [
       {
         question: "Quais eventos SST são enviados ao eSocial?",
         answer:
-          "Os principais são S-2210 (CAT), S-2220 (Monitoramento da Saúde do Trabalhador) e S-2240 (Condições Ambientais do Trabalho).",
+          "Os principais eventos são S-2210 (Comunicação de Acidente de Trabalho - CAT), S-2220 (Monitoramento da Saúde do Trabalhador), S-2221 (Exame Toxicológico do Motorista Profissional) e S-2240 (Condições Ambientais do Trabalho).",
       },
       {
         question: "O envio do eSocial SST é obrigatório?",
@@ -491,23 +517,25 @@ export const servicos: ServiceData[] = [
       {
         question: "Quais eventos SST precisam ser enviados?",
         answer:
-          "Os principais eventos são S-2210 (CAT), S-2220 (Monitoramento da Saúde do Trabalhador) e S-2240 (Condições Ambientais do Trabalho).",
+          "Os principais eventos são S-2210 (CAT), S-2220 (Monitoramento da Saúde do Trabalhador), S-2221 (Exame Toxicológico do Motorista Profissional) e S-2240 (Condições Ambientais do Trabalho).",
       },
     ],
 
     seo: {
-      title: "eSocial SST | Gestão dos Eventos S-2210, S-2220 e S-2240",
-
+      title: "eSocial SST | Gestão dos Eventos S-2210, S-2220, S-2221 e S-2240",
       description:
-        "Gestão completa do eSocial SST para empresas. Envio dos eventos obrigatórios com segurança, conformidade legal e suporte especializado.",
+        "Gestão completa do eSocial SST para empresas. Envio dos eventos S-2210, S-2220, S-2221 e S-2240 com segurança, conformidade legal e suporte especializado.",
 
       keywords: [
         "eSocial SST",
         "eventos SST",
         "S2210",
         "S2220",
+        "S2221",
         "S2240",
         "CAT eSocial",
+        "exame toxicológico eSocial",
+        "motorista profissional eSocial",
         "monitoramento da saúde do trabalhador",
         "condições ambientais do trabalho",
         "medicina do trabalho",
@@ -521,6 +549,11 @@ export const servicos: ServiceData[] = [
     slug: "seguranca-do-trabalho",
 
     title: "Segurança do Trabalho",
+    benefitsSection: {
+      title: "Por que investir em Segurança do Trabalho?",
+      subtitle:
+        "Empresas seguras são mais produtivas, eficientes e protegidas juridicamente.",
+    },
 
     description: "Gestão de Segurança do Trabalho para Empresas",
 
@@ -625,6 +658,11 @@ export const servicos: ServiceData[] = [
     slug: "avaliacoes-ambientais",
 
     title: "Avaliações Ambientais",
+    benefitsSection: {
+      title: "Por que investir em Segurança do Trabalho?",
+      subtitle:
+        "Empresas seguras são mais produtivas, eficientes e protegidas juridicamente.",
+    },
 
     description: "Avaliação de Agentes Físicos, Químicos e Biológicos",
     hero: {
@@ -735,7 +773,11 @@ export const servicos: ServiceData[] = [
     slug: "treinamentos-sst",
 
     title: "Treinamentos SST",
-
+    benefitsSection: {
+      title: "Por que capacitar sua equipe em Saúde e Segurança do Trabalho?",
+      subtitle:
+        "Treinamentos adequados reduzem acidentes e aumentam a produtividade.",
+    },
     description: "Treinamentos de Saúde e Segurança do Trabalho",
     hero: {
       title: "Capacite sua equipe e reduza os riscos de acidentes no trabalho.",
@@ -842,7 +884,12 @@ export const servicos: ServiceData[] = [
     slug: "medicina-do-trabalho",
 
     title: "Medicina do Trabalho",
-
+    benefitsSection: {
+      title:
+        "Sua empresa está realmente protegida em relação à saúde ocupacional?",
+      subtitle:
+        "Conheça os benefícios de uma gestão completa em Medicina do Trabalho.",
+    },
     description: "Soluções completas em Medicina do Trabalho para empresas",
     hero: {
       title:

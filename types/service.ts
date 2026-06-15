@@ -18,7 +18,10 @@ export interface ServiceData {
   introTitle: string;
 
   introText: string;
-
+  benefitsSection: {
+    title: string;
+    subtitle?: string;
+  };
   cta: {
     title: string;
     buttonText: string;

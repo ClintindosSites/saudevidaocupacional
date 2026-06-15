@@ -19,10 +19,8 @@ export default function PainSolution() {
           </a>
         </div>
         <div className="imgBox">
-          <Image
+          <img
             src={"/logo.png"}
-            width={300}
-            height={200}
             alt={"Imagem  de segurança do trabalho para empresas"}
           />
         </div>

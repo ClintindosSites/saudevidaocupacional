@@ -28,9 +28,11 @@ export default function ServiceTemplate({ service }: Props) {
         <div className="container">
           <div className="dor-content">
             <div className="text">
-              <h2>{service.introTitle}</h2>
+              <h2>{service.benefitsSection.title}</h2>
 
-              <p className="subtitle">{service.introText}</p>
+              {service.benefitsSection.subtitle && (
+                <p>{service.benefitsSection.subtitle}</p>
+              )}
 
               <a
                 href={whatsappUrl}
