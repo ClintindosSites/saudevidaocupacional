@@ -56,12 +56,14 @@ export default function ServiceTemplate({ service }: Props) {
           <div className="text">
             <h2>Quais benefícios a {service.title} pode beneficiar minha</h2>
           </div>
-          {service.benefits.map(item => (
-            <div className="beneficio-item" key={item.title}>
-              <h3>{item.title}</h3>
-              <p>{item.description}</p>
-            </div>
-          ))}
+          <div className="beneficios-list">
+            {service.benefits.map(item => (
+              <div className="beneficio-item" key={item.title}>
+                <h3>{item.title}</h3>
+                <p>{item.description}</p>
+              </div>
+            ))}
+          </div>
           <a href={whatsappUrl} className="btnHeader">
             Solicitar atendimento Agora
           </a>
