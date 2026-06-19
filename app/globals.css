@@ -1066,6 +1066,9 @@ option {
   }
 }
 @media screen and (max-width: 768px) {
+  .benefitsConversion .beneficios-list {
+    flex-wrap: wrap;
+  }
   section {
     padding: 60px 15px;
   }
@@ -1248,6 +1251,9 @@ option {
   }
   .seriviceHero h1 {
     color: #89b5f1;
+  }
+  .beneficios-list {
+    flex-wrap: wrap;
   }
 }
 .benefitsConversion .container {
@@ -1477,6 +1483,9 @@ option {
 
   .dor-image img {
     max-width: 100%;
+  }
+  .benefitsConversion .beneficios-list {
+    flex-wrap: wrap;
   }
 }
 .dor-image img {
