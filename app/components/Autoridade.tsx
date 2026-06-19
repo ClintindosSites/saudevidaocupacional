@@ -19,8 +19,8 @@ export default function Autoridade() {
 
         <div className="autoridade-container">
           <div className="autoridade-card">
-            <Counter end={14} suffix="+" />
-            <p>Anos de experiência</p>
+            <Counter end={17} suffix="+" />
+            <p>Anos de experiência em Segurança do Trabalho</p>
           </div>
 
           <div className="autoridade-card">
@@ -30,7 +30,7 @@ export default function Autoridade() {
 
           <div className="autoridade-card">
             <Counter end={5000} suffix="+" duration={3000} />
-            <p>Exames realizados</p>
+            <p>Exames realizados em pequenas e grandes empresas</p>
           </div>
 
           <div className="autoridade-card">

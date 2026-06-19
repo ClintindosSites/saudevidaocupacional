@@ -54,7 +54,7 @@ h1 {
 }
 h1 span {
   font-size: 3.5rem;
-  color: #89b5f1;
+  color: #ec3035;
 }
 .header {
   position: sticky;
@@ -84,19 +84,20 @@ h1 span {
 .nav {
   display: flex;
   align-items: center;
-  gap: 32px;
+  gap: 1rem;
 }
 
 .nav a {
   color: #1f2937;
   text-decoration: none;
-  font-size: 0.95rem;
-  font-weight: 500;
+  font-size: 1rem;
+  font-weight: 600;
   transition: 0.2s;
+  font-weight: 500;
 }
 
 .nav a:hover {
-  color: var(--vermelho-vivido-1);
+  text-decoration: underline 3px solid #ec3035;
 }
 
 .btnHeader {
@@ -290,9 +291,9 @@ option {
   font-size: 1.2rem;
 }
 .text span {
-  font-size: 3rem;
   color: var(--vermelhor-vivido-2);
   line-height: 1;
+  text-decoration: underline;
 }
 /*Servicos*/
 .servicos .container {
@@ -305,18 +306,113 @@ option {
   gap: 1rem;
 }
 .servico-item {
-  color: var(--cinza-escuro);
-  background-color: #89b5f1;
-  padding: 10px;
+  position: relative;
+
+  overflow: hidden;
+
+  background: #fff;
+
   border-radius: 10px;
-  gap: 1rem;
+
+  border: 1px solid #e5e5e5;
+
+  min-height: 320px;
+
   display: flex;
   flex-direction: column;
-  height: 100%;
+  justify-content: flex-end;
+
+  padding: 20px;
+
+  transition: 0.4s ease;
+
+  align-items: center;
 }
+.servico-item::before {
+  content: "";
+
+  position: absolute;
+
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.7);
+
+  opacity: 0;
+
+  transition: 0.4s ease;
+
+  z-index: 2;
+}
+.servico-bg {
+  position: absolute;
+
+  inset: 0;
+
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+
+  opacity: 0;
+
+  transform: scale(1);
+
+  transition:
+    opacity 0.4s ease,
+    transform 0.8s ease;
+
+  z-index: 1;
+}
+.servico-item:hover .servico-bg {
+  opacity: 1;
+
+  transform: scale(1.08);
+}
+
+.servico-item:hover::before {
+  opacity: 1;
+}
+.servico-item:hover h3,
+.servico-item:hover p,
+.servico-item:hover .serviceIcon {
+  color: #fff !important;
+}
+.item-text,
+.buttons,
+.serviceIcon {
+  position: relative;
+  z-index: 3;
+}
+.saibaMais {
+  display: inline-flex;
+
+  align-items: center;
+  justify-content: center;
+
+  background: var(--vermelho-vivido-1);
+
+  color: #fff;
+
+  padding: 12px 20px;
+
+  border-radius: 8px;
+
+  transition: 0.3s;
+}
+
+.servico-item:hover .saibaMais {
+  background: #fff;
+  color: var(--vermelho-vivido-1);
+}
+.serviceIcon {
+  color: #c62828;
+  margin-bottom: 20px;
+}
+
 .item-text h3 {
   text-transform: uppercase;
   font-size: 1.5rem;
+  color: #ec3035;
 }
 .item-text p {
   color: #171717;
@@ -324,7 +420,7 @@ option {
 .item-text {
   color: #fff;
   flex: 1;
-
+  text-align: center;
   display: flex;
   flex-direction: column;
 }
@@ -339,14 +435,7 @@ option {
   width: 100%;
   text-decoration: none;
 }
-.saibaMais {
-  background-color: #fff;
-  border-radius: 10px;
-  color: var(--cinza-escuro);
-  font-size: 1.2rem;
-  text-transform: uppercase;
-  padding: 10px 4%;
-}
+
 .WhatsAppBtn {
   background-color: rgb(6, 202, 88);
   border-radius: 10px;
@@ -377,15 +466,17 @@ option {
   align-items: center;
 }
 .beneficio-item {
-  background-color: #89b5f1;
+  border: 1px solid #1d1d1d1d;
   padding: 20px;
   display: flex;
   flex-direction: column;
   border-radius: 8px;
   gap: 1rem;
+  width: 300px;
+  height: 200px;
 }
 .beneficio-item h3 {
-  color: #fff;
+  color: var(--vermelho-vivido-3);
   text-transform: uppercase;
   font-size: 1.5rem;
   line-height: 1;
@@ -394,40 +485,65 @@ option {
   font-size: 1.2rem;
   color: #1f2937;
 }
+.autoridade {
+  position: relative;
+  overflow: hidden;
+
+  background-image: url("/autoridade.webp");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  padding: 100px 0;
+}
+
+.autoridade::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background: rgba(0, 0, 0, 0.65);
+
+  z-index: 1;
+}
+
 .autoridade-card span {
   display: block;
   font-size: clamp(2.5rem, 5vw, 4rem);
   font-weight: 800;
-  color: #89b5f1;
+  color: var(--vermelho-vivido-3);
   line-height: 1;
 }
 .autoridade .container {
-  background-color: #89b5f1;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   border-radius: 20px;
   padding: 20px;
+  position: relative;
+  z-index: 2;
 }
 .autoridade .text {
-  color: #171717;
+  color: #fff;
   text-align: center;
 }
 .autoridade .text h2 {
   font-size: 2.5rem;
-  color: #fff;
+  color: var(--vermelhor-vivido-2);
   line-height: 1;
 }
 .autoridade-container {
   display: flex;
+
   gap: 1rem;
 }
 .autoridade-card {
   background-color: #fff;
-  border-radius: 20px;
+  border-radius: 8px;
   color: var(--cinza-escuro);
   text-align: center;
-  padding: 10px;
+  padding: 20px;
+  width: 200px;
 }
 .autoridade-card p {
   font-size: 18px;
@@ -462,14 +578,21 @@ option {
   display: inline-block;
   margin-bottom: 12px;
   font-weight: 700;
-  color: #89b5f1;
+  color: #fff;
+
   letter-spacing: 1px;
 }
-
+.badge {
+  background-color: #ec3035;
+  padding: 10px;
+  border-radius: 8px;
+  color: #fff;
+}
 .headerSection h2 {
   font-size: clamp(2rem, 4vw, 3rem);
   margin-bottom: 20px;
   color: var(--cinza-escuro);
+  line-height: 1;
 }
 
 .headerSection p {
@@ -539,7 +662,7 @@ option {
 }
 
 .avaliacoes-header span {
-  color: #89b5f1;
+  color: #fff;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -634,9 +757,11 @@ option {
   max-width: 850px;
   margin: 0 auto 50px;
 }
-
+.faq-header .badge {
+  color: #fff;
+}
 .faq-header span {
-  color: #89b5f1;
+  color: #ec3035;
   font-weight: 700;
   letter-spacing: 1px;
 }
@@ -645,6 +770,7 @@ option {
   margin: 15px 0;
   font-size: clamp(2rem, 4vw, 3rem);
   color: var(--cinza-escuro);
+  line-height: 1;
 }
 
 .faq-header p {
@@ -726,11 +852,9 @@ option {
 }
 
 .ctaFinal span {
-  color: #89b5f1;
-
+  color: #fff;
+  line-height: 1;
   font-weight: 700;
-
-  letter-spacing: 1px;
 }
 
 .ctaFinal h2 {
@@ -854,7 +978,7 @@ option {
 .footer-whatsapp {
   color: #fff;
   text-decoration: none;
-  background-color: #89b5f1;
+  background-color: #25d366;
 }
 
 .footer-whatsapp:hover {
@@ -1170,12 +1294,63 @@ option {
   animation: pulseWhatsapp 2s infinite;
 
   transition: 0.3s;
+  cursor: pointer;
 }
 
 .whatsapp-float:hover {
   transform: scale(1.08);
 }
+.whatsapp-modal {
+  position: fixed;
 
+  right: 20px;
+  bottom: 100px;
+
+  width: 340px;
+
+  background: white;
+  border-radius: 12px;
+
+  overflow: hidden;
+
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+
+  z-index: 999;
+}
+.whatsapp-modal .header {
+  background: #0aa884;
+  color: white;
+
+  padding: 20px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.atendente {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  padding: 15px;
+
+  text-decoration: none;
+  color: #222;
+
+  border-bottom: 1px solid #eee;
+}
+
+.atendente img {
+  width: 55px;
+  height: 55px;
+
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.atendente:hover {
+  background: #f7f7f7;
+}
 .tooltip {
   position: absolute;
 

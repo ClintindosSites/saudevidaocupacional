@@ -4,7 +4,7 @@ export default function CTAFinal() {
   return (
     <section className="ctaFinal">
       <div className="container">
-        <span>EVITE MULTAS E REGULARIZE SUA EMPRESA</span>
+        <span className="badge">EVITE MULTAS E REGULARIZE SUA EMPRESA</span>
 
         <h2>
           Sua empresa está realmente em conformidade com as exigências de SST?

@@ -41,7 +41,7 @@ export default function Avaliacoes() {
       <div className="container">
         {" "}
         <div className="avaliacoes-header">
-          <span>AVALIAÇÕES</span>
+          <span className="badge">AVALIAÇÕES</span>
 
           <h2>O que nossos clientes dizem</h2>
 

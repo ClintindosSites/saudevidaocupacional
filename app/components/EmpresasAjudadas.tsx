@@ -44,7 +44,7 @@ export default function EmpresasAjudadas() {
     <section className="provasSociais">
       <div className="container">
         <div className="headerSection">
-          <span>EMPRESAS ATENDIDAS</span>
+          <span className="badge">EMPRESAS ATENDIDAS</span>
 
           <h2>
             Empresas que confiam na <br />{" "}

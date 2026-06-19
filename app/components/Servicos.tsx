@@ -1,55 +1,105 @@
 import Link from "next/link";
-
+import {
+  Stethoscope,
+  ShieldCheck,
+  ClipboardCheck,
+  FileCheck,
+  FileSpreadsheet,
+  PersonStanding,
+  HardHat,
+  Factory,
+  GraduationCap,
+  HeartPulse,
+} from "lucide-react";
 const servicosHome = [
   {
     title: "PCMSO",
     slug: "pcmso",
     image: "/pcmso-card.webp",
-    description: "Programa de Controle Médico de Saúde Ocupacional",
-    whatsapp:
-      "Olá, vim do Google e gostaria de solicitar um orçamento para PCMSO.",
+    description:
+      "Elaboração e gestão completa do Programa de Controle Médico de Saúde Ocupacional, com acompanhamento dos exames obrigatórios e conformidade com a NR-07.",
+    icon: Stethoscope,
   },
+
   {
     title: "PGR",
     slug: "pgr",
     image: "/pgr-card.webp",
-    description: "Programa de Gerenciamento de Riscos.",
-    whatsapp:
-      "Olá, vim do Google e gostaria de solicitar um orçamento para elaboração de PGR.",
+    description:
+      "Identificação, avaliação e gerenciamento dos riscos ocupacionais da sua empresa para atendimento à NR-01 e redução de passivos trabalhistas.",
+    icon: ShieldCheck,
   },
+
   {
     title: "Exames Ocupacionais",
     slug: "exames-ocupacionais",
     image: "/exame-ocupacional-card.webp",
     description:
-      "Admissional, Demissional, Periódico, Retorno ao Trabalho e Mudança de Função.",
-    whatsapp:
-      "Olá, vim do Google e gostaria de agendar exames ocupacionais para minha empresa.",
+      "Realizamos exames admissionais, periódicos, demissionais, retorno ao trabalho e mudança de função com emissão rápida de ASO.",
+    icon: ClipboardCheck,
   },
+
   {
     title: "LTCAT",
     slug: "ltcat",
     image: "/ltcat-card.webp",
-    description: "Laudo Técnico das Condições Ambientais do Trabalho.",
-    whatsapp:
-      "Olá, vim do Google e gostaria de solicitar um orçamento para elaboração de LTCAT.",
+    description:
+      "Laudo Técnico das Condições Ambientais do Trabalho elaborado por profissionais especializados para atender exigências previdenciárias e do eSocial.",
+    icon: FileCheck,
   },
+
   {
     title: "eSocial SST",
     slug: "esocial",
     image: "/eSocial-card.webp",
-    description: "Envio correto e seguro dos eventos obrigatórios.",
-    whatsapp:
-      "Olá, preciso de ajuda com os eventos SST do eSocial da minha empresa.",
+    description:
+      "Gestão e envio dos eventos S-2210, S-2220, S-2221 e S-2240, garantindo conformidade legal e evitando multas para sua empresa.",
+    icon: FileSpreadsheet,
   },
+
   {
     title: "Ergonomia - AEP/AET",
     slug: "ergonomia",
     image: "/ergonomia-card.webp",
     description:
-      "Ergonomia - AEP/AET e avaliação dos fatores de riscos psicossociais no trabalho",
-    whatsapp:
-      "Olá, vim do Google e gostaria de solicitar uma análise ergonômica para minha empresa.",
+      "Análises ergonômicas, AEP, AET e avaliação dos fatores psicossociais para adequação à NR-17 e melhoria das condições de trabalho.",
+    icon: PersonStanding,
+  },
+
+  {
+    title: "Segurança do Trabalho",
+    slug: "seguranca-do-trabalho",
+    image: "/seguranca-do-trabalho-card.webp",
+    description:
+      "Consultoria especializada em SST para prevenção de acidentes, conformidade com as NRs e proteção dos colaboradores.",
+    icon: HardHat,
+  },
+
+  {
+    title: "Avaliações Ambientais",
+    slug: "avaliacoes-ambientais",
+    image: "/avaliacoes-ambientais-card.webp",
+    description:
+      "Medições de ruído, calor, agentes químicos, biológicos e demais riscos ocupacionais para suporte técnico aos programas SST.",
+    icon: Factory,
+  },
+
+  {
+    title: "Treinamentos SST",
+    slug: "treinamentos-sst",
+    image: "/treinamentos-sst-card.webp",
+    description:
+      "Treinamentos obrigatórios conforme as Normas Regulamentadoras, com emissão de certificados e documentação completa.",
+    icon: GraduationCap,
+  },
+
+  {
+    title: "Medicina do Trabalho",
+    slug: "medicina-do-trabalho",
+    image: "/medicina-do-trabalho-card.webp",
+    description:
+      "Soluções completas em saúde ocupacional para proteger colaboradores, reduzir riscos e manter sua empresa em conformidade.",
+    icon: HeartPulse,
   },
 ];
 
@@ -63,15 +113,19 @@ export default function Servicos() {
         </div>
         <div className="servicos-grid">
           {servicosHome.map(servico => {
-            const whatsappUrl = `https://wa.me/553135323016?text=${encodeURIComponent(
-              servico.whatsapp
-            )}`;
+            const Icon = servico.icon;
 
             return (
               <div className="servico-item" key={servico.slug}>
-                <div className="item-img">
-                  <img src={servico.image} alt={servico.title} />
+                <div className="serviceIcon">
+                  <Icon size={70} strokeWidth={1.5} />
                 </div>
+
+                <img
+                  src={servico.image}
+                  alt={servico.title}
+                  className="servico-bg"
+                />
 
                 <div className="item-text">
                   <h3>{servico.title}</h3>
@@ -85,15 +139,6 @@ export default function Servicos() {
                   >
                     Saiba mais
                   </Link>
-
-                  <a
-                    href={whatsappUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="WhatsAppBtn"
-                  >
-                    Atendimento no WhatsApp
-                  </a>
                 </div>
               </div>
             );

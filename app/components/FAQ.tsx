@@ -43,9 +43,12 @@ export default function FAQ() {
     <section className="faq">
       <div className="container">
         <div className="faq-header">
-          <span>PERGUNTAS FREQUENTES</span>
+          <span className="badge">PERGUNTAS FREQUENTES</span>
 
-          <h2>Tire suas dúvidas sobre Medicina e Segurança do Trabalho</h2>
+          <h2>
+            Tire suas dúvidas sobre <br />{" "}
+            <span>Medicina e Segurança do Trabalho</span>
+          </h2>
 
           <p>
             Reunimos as perguntas mais comuns feitas por empresários e gestores

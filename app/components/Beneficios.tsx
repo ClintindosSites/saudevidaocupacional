@@ -13,7 +13,7 @@ export default function Beneficios() {
         </div>
         <div className="beneficios-list">
           <div className="beneficio-item">
-            <h3>Evite Multas</h3>
+            <h3>Evite Multas Indesejáveis</h3>
             <p>
               Evite transtornos financeiros com multas e mantenha sua empresa em
               conformidade com a legislação.
