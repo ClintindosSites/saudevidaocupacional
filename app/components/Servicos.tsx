@@ -11,6 +11,7 @@ import {
   GraduationCap,
   HeartPulse,
 } from "lucide-react";
+import { whatsappUrl } from "@/constants/whatsapp";
 const servicosHome = [
   {
     title: "PCMSO",
@@ -107,9 +108,13 @@ export default function Servicos() {
   return (
     <section className="servicos">
       <div className="container">
-        <div className="text">
-          <h2>Conheça nossos serviços em segurança do trabalho:</h2>
-          <p></p>
+        <div className="text text-2">
+          <h2>
+            O que faremos <br /> <span>pela sua empresa?</span>
+          </h2>
+          <a href={whatsappUrl} target="_blank" className="btnHeader2">
+            Fale Conosco
+          </a>
         </div>
         <div className="servicos-grid">
           {servicosHome.map(servico => {
@@ -135,7 +140,7 @@ export default function Servicos() {
                 <div className="buttons">
                   <Link
                     href={`/servicos/${servico.slug}`}
-                    className="saibaMais"
+                    className="btnHeader2"
                   >
                     Saiba mais
                   </Link>

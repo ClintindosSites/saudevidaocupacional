@@ -1,5 +1,5 @@
 "use client";
-
+import { CalendarClock, Building2, ClipboardCheck, Award } from "lucide-react";
 import Counter from "./Counter";
 import { whatsappUrl } from "@/constants/whatsapp";
 
@@ -19,21 +19,25 @@ export default function Autoridade() {
 
         <div className="autoridade-container">
           <div className="autoridade-card">
+            <CalendarClock size={50} className="icon" />
             <Counter end={17} suffix="+" />
             <p>Anos de experiência em Segurança do Trabalho</p>
           </div>
 
           <div className="autoridade-card">
+            <Building2 size={50} className="icon" />
             <Counter end={165} suffix="+" />
             <p>Empresas atendidas em Minas Gerais</p>
           </div>
 
           <div className="autoridade-card">
+            <ClipboardCheck size={50} className="icon" />
             <Counter end={5000} suffix="+" duration={3000} />
             <p>Exames realizados em pequenas e grandes empresas</p>
           </div>
 
           <div className="autoridade-card">
+            <Award size={50} className="icon" />
             <Counter end={98} suffix="%" />
             <p>Clientes satisfeitos com nossa consultoria</p>
           </div>

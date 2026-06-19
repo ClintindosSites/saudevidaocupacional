@@ -7,7 +7,10 @@
   --vermelhor-vivido-2: #eb3035;
   --vermelho-vivido-3: #ec3035;
 }
-
+html,
+body {
+  font-family: var(--font-Manrope), sans-serif;
+}
 body {
   font-family: var(--font-inter);
   color: var(--foreground);
@@ -49,7 +52,7 @@ section {
 h1 {
   font-size: 1.6rem;
   font-weight: 700;
-  text-transform: uppercase;
+  text-transform: capitalize;
   color: #fff;
 }
 h1 span {
@@ -99,12 +102,28 @@ h1 span {
 .nav a:hover {
   text-decoration: underline 3px solid #ec3035;
 }
+.btnHeader2 {
+  background-color: #fff;
+  color: #ec3035;
+  padding: 12px 22px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  border: 1px solid #ec3035;
+}
+.btnHeader2:hover {
+  transition: 0.5s ease-in-out;
+  opacity: 0.9;
+  background-color: #ec3035;
+  color: #fff;
+}
 
 .btnHeader {
   background: var(--vermelho-vivido-1);
   color: white !important;
   padding: 12px 22px;
-  border-radius: 8px;
+  border-radius: 50px;
   font-weight: 600;
   cursor: pointer;
   border: none;
@@ -270,7 +289,7 @@ option {
 }
 .heroForm h3 {
   color: #eb3035;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 /*painSolution*/
 
@@ -281,8 +300,8 @@ option {
   color: var(--cinza-escuro);
 }
 .text h2 {
-  font-size: 1.3rem;
-  text-transform: uppercase;
+  font-size: 36px;
+  text-transform: capitalize;
 }
 .text a {
   text-decoration: none;
@@ -299,6 +318,20 @@ option {
 .servicos .container {
   display: flex;
   flex-direction: column;
+}
+.text-2 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  width: 100%;
+}
+.text-2 h2 {
+  font-size: 46px;
+  line-height: 1;
+  text-transform: capitalize;
 }
 .servicos-grid {
   display: grid;
@@ -395,7 +428,7 @@ option {
 
   padding: 12px 20px;
 
-  border-radius: 8px;
+  border-radius: 50px;
 
   transition: 0.3s;
 }
@@ -410,7 +443,7 @@ option {
 }
 
 .item-text h3 {
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 1.5rem;
   color: #ec3035;
 }
@@ -441,7 +474,7 @@ option {
   border-radius: 10px;
   color: #fff;
   font-size: 1.2rem;
-  text-transform: uppercase;
+  text-transform: capitalize;
   padding: 10px 4%;
 }
 .servico-item img {
@@ -476,7 +509,7 @@ option {
 }
 .beneficio-item h3 {
   color: var(--vermelho-vivido-3);
-  text-transform: uppercase;
+  text-transform: capitalize;
   font-size: 1.5rem;
   line-height: 1;
 }
@@ -583,8 +616,8 @@ option {
 }
 .badge {
   background-color: #ec3035;
-  padding: 10px;
-  border-radius: 8px;
+  padding: 10px 30px;
+  border-radius: 50px;
   color: #fff;
 }
 .headerSection h2 {
@@ -822,6 +855,9 @@ option {
 }
 
 @media (max-width: 768px) {
+  .text-2 {
+    flex-direction: column;
+  }
   .faq-question {
     font-size: 1rem;
     padding: 18px;
@@ -1494,4 +1530,7 @@ option {
 
 .dor-image img:hover {
   transform: translateY(-6px);
+}
+.icon {
+  color: #ec3035;
 }
