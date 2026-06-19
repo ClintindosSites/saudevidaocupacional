@@ -69,7 +69,7 @@ const servicosHome = [
   {
     title: "Segurança do Trabalho",
     slug: "seguranca-do-trabalho",
-    image: "/seguranca-do-trabalho-card.webp",
+    image: "/seguranca-do-trabalho-image.webp",
     description:
       "Consultoria especializada em SST para prevenção de acidentes, conformidade com as NRs e proteção dos colaboradores.",
     icon: HardHat,
@@ -78,7 +78,7 @@ const servicosHome = [
   {
     title: "Avaliações Ambientais",
     slug: "avaliacoes-ambientais",
-    image: "/avaliacoes-ambientais-card.webp",
+    image: "/avaliacoes-ambientais-image.webp",
     description:
       "Medições de ruído, calor, agentes químicos, biológicos e demais riscos ocupacionais para suporte técnico aos programas SST.",
     icon: Factory,
@@ -87,7 +87,7 @@ const servicosHome = [
   {
     title: "Treinamentos SST",
     slug: "treinamentos-sst",
-    image: "/treinamentos-sst-card.webp",
+    image: "/treinamento-sst-image.webp",
     description:
       "Treinamentos obrigatórios conforme as Normas Regulamentadoras, com emissão de certificados e documentação completa.",
     icon: GraduationCap,
@@ -96,7 +96,7 @@ const servicosHome = [
   {
     title: "Medicina do Trabalho",
     slug: "medicina-do-trabalho",
-    image: "/medicina-do-trabalho-card.webp",
+    image: "/exames-ocupacionais-image.webp",
     description:
       "Soluções completas em saúde ocupacional para proteger colaboradores, reduzir riscos e manter sua empresa em conformidade.",
     icon: HeartPulse,
