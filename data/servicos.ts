@@ -53,7 +53,12 @@ export const servicos: ServiceData[] = [
     cta: {
       title:
         "Regularize o PCMSO da sua empresa e evite problemas com fiscalizações.",
+
+      description:
+        "Conte com uma equipe especializada para elaborar, implantar e gerenciar o PCMSO da sua empresa. Garanta conformidade com a NR-07, acompanhe os exames ocupacionais e proteja sua empresa contra multas e passivos trabalhistas.",
+
       buttonText: "Solicitar PCMSO",
+
       whatsappMessage:
         "Olá, vim do Google e gostaria de solicitar um orçamento para PCMSO.",
     },
@@ -131,7 +136,12 @@ export const servicos: ServiceData[] = [
     cta: {
       title:
         "Identifique e controle os riscos ocupacionais da sua empresa hoje mesmo.",
+
+      description:
+        "Elaboramos o PGR de acordo com as exigências da NR-01, ajudando sua empresa a reduzir acidentes, evitar autuações e criar um ambiente de trabalho mais seguro para todos os colaboradores.",
+
       buttonText: "Solicitar PGR",
+
       whatsappMessage:
         "Olá, vim do Google e gostaria de solicitar um orçamento para elaboração de PGR.",
     },
@@ -209,7 +219,12 @@ export const servicos: ServiceData[] = [
     cta: {
       title:
         "Agende os exames ocupacionais da sua equipe com rapidez e segurança.",
+
+      description:
+        "Realizamos exames admissionais, periódicos, retorno ao trabalho, mudança de função e demissionais com agilidade, emissão de ASO e total conformidade com a legislação trabalhista.",
+
       buttonText: "Agendar Exames",
+
       whatsappMessage:
         "Olá, vim do Google e gostaria de agendar exames ocupacionais para minha empresa.",
     },
@@ -295,7 +310,12 @@ export const servicos: ServiceData[] = [
       "A ergonomia adapta as condições de trabalho às características físicas e cognitivas dos colaboradores, reduzindo riscos ocupacionais, prevenindo lesões, aumentando a produtividade e garantindo conformidade com a NR-17.",
     cta: {
       title: "Reduza afastamentos e melhore a produtividade da sua equipe.",
+
+      description:
+        "Realizamos AEP, AET e avaliações ergonômicas completas para adequar sua empresa à NR-17, melhorar o conforto dos colaboradores e reduzir riscos de lesões ocupacionais.",
+
       buttonText: "Solicitar Análise Ergonômica",
+
       whatsappMessage:
         "Olá, vim do Google e gostaria de solicitar uma análise ergonômica para minha empresa.",
     },
@@ -379,7 +399,12 @@ export const servicos: ServiceData[] = [
     cta: {
       title:
         "Garanta conformidade previdenciária e segurança jurídica para sua empresa.",
+
+      description:
+        "Tenha um LTCAT elaborado por profissionais habilitados, com identificação dos agentes nocivos e documentação completa para atender exigências do INSS, eSocial e aposentadoria especial.",
+
       buttonText: "Solicitar LTCAT",
+
       whatsappMessage:
         "Olá, vim do Google e gostaria de solicitar um orçamento para elaboração de LTCAT.",
     },
@@ -483,7 +508,12 @@ export const servicos: ServiceData[] = [
 
     cta: {
       title: "Evite multas e mantenha os eventos SST do eSocial em dia.",
+
+      description:
+        "Nossa equipe realiza a gestão completa dos eventos S-2210, S-2220, S-2221 e S-2240, garantindo envio correto das informações e total conformidade com as exigências do Governo Federal.",
+
       buttonText: "Regularizar eSocial SST",
+
       whatsappMessage:
         "Olá, preciso de ajuda com os eventos SST do eSocial da minha empresa.",
     },
@@ -601,7 +631,12 @@ export const servicos: ServiceData[] = [
     cta: {
       title:
         "Proteja seus colaboradores e mantenha sua empresa em conformidade.",
+
+      description:
+        "Conte com consultoria especializada em Segurança do Trabalho para reduzir acidentes, atender às Normas Regulamentadoras e proteger sua empresa contra multas e processos trabalhistas.",
+
       buttonText: "Falar com um Especialista",
+
       whatsappMessage:
         "Olá, vim do Google e gostaria de uma consultoria em Segurança do Trabalho.",
     },
@@ -709,7 +744,12 @@ export const servicos: ServiceData[] = [
     cta: {
       title:
         "Identifique riscos ambientais antes que eles se transformem em problemas.",
+
+      description:
+        "Realizamos avaliações quantitativas e qualitativas de agentes físicos, químicos e biológicos para atender às exigências legais e fornecer suporte técnico para PGR, LTCAT e eSocial.",
+
       buttonText: "Solicitar Avaliação",
+
       whatsappMessage:
         "Olá, vim do Google e gostaria de solicitar uma avaliação ambiental ocupacional.",
     },
@@ -820,7 +860,12 @@ export const servicos: ServiceData[] = [
 
     cta: {
       title: "Capacite sua equipe e reduza os riscos de acidentes no trabalho.",
+
+      description:
+        "Treinamentos completos e personalizados para sua empresa, com instrutores qualificados, emissão de certificados e atendimento às exigências das Normas Regulamentadoras.",
+
       buttonText: "Solicitar Treinamento",
+
       whatsappMessage:
         "Olá, vim do Google e gostaria de mais informações sobre treinamentos de SST.",
     },
@@ -933,7 +978,12 @@ export const servicos: ServiceData[] = [
     cta: {
       title:
         "Cuide da saúde dos seus colaboradores e mantenha sua empresa em conformidade.",
+
+      description:
+        "Oferecemos soluções completas em Medicina do Trabalho, incluindo PCMSO, exames ocupacionais, ASO e gestão da saúde ocupacional para empresas de todos os portes.",
+
       buttonText: "Solicitar Consultoria",
+
       whatsappMessage:
         "Olá, vim do Google e gostaria de conhecer as soluções de Medicina do Trabalho para minha empresa.",
     },

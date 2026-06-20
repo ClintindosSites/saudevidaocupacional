@@ -151,6 +151,9 @@ h1 span {
   .nav a {
     font-size: 0.9rem;
   }
+  .benefitsConversion .beneficios-list {
+    flex-wrap: wrap;
+  }
 }
 
 @media (max-width: 900px) {
@@ -504,7 +507,7 @@ option {
   flex-direction: column;
   border-radius: 8px;
   gap: 1rem;
-  width: 300px;
+  width: 100%;
   height: auto;
 }
 .beneficio-item h3 {
@@ -1045,6 +1048,9 @@ option {
 /* TABLETS */
 
 @media screen and (max-width: 992px) {
+  .benefitsConversion .beneficios-list {
+    flex-wrap: wrap;
+  }
   h1 {
     font-size: 1.4rem;
   }

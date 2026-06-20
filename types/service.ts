@@ -24,6 +24,7 @@ export interface ServiceData {
   };
   cta: {
     title: string;
+    description: string;
     buttonText: string;
     whatsappMessage: string;
   };

@@ -37,8 +37,8 @@ export default function Header() {
           <Link href={"/servicos/ergonomia"}>Ergonomia</Link>
           <Link href="/servicos/eSocial">eSocial</Link>
 
-          <Link href={whatsappUrl} className="btnHeader" target="_blank">
-            Solicitar Orçamento
+          <Link href={whatsappUrl} className="btnHeader2" target="_blank">
+            Fale Conosco
           </Link>
         </nav>
 

@@ -76,6 +76,7 @@ export default function ServiceTemplate({ service }: Props) {
           <h2>
             <span className="text-[#89b5f1]">{service.cta.title}</span>
           </h2>
+          <p>{service.cta.description}</p>
           <a href={whatsappUrl} className="btnHeader">
             {service.cta.buttonText}
           </a>
