@@ -6,23 +6,13 @@ import Footer from "./components/Footer";
 
 import WhatsAppWidget from "./components/WhatsappWidget";
 
-const inter = Inter({
-  subsets: ["latin"],
-  variable: "--font-inter",
-  display: "swap",
-});
 const manrope = Manrope({
   subsets: ["latin"],
   variable: "--font-Manrope",
   weight: ["400", "500", "600", "700", "800"],
   display: "swap",
 });
-const poppins = Poppins({
-  subsets: ["latin"],
-  variable: "--font-poppins",
-  weight: ["400", "500", "600", "700", "800"],
-  display: "swap",
-});
+
 export const metadata: Metadata = {
   title:
     "Saúde e Vida | Medicina e Segurança do Trabalho para emrpesas de todos os portes.",

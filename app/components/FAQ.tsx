@@ -77,7 +77,7 @@ export default function FAQ() {
           ))}
         </div>
 
-        <a href={whatsappUrl} className="btnHeader">
+        <a href={whatsappUrl} className="btnHeader2">
           Falar com um especialista
         </a>
       </div>

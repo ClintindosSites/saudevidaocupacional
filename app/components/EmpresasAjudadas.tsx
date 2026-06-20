@@ -64,7 +64,7 @@ export default function EmpresasAjudadas() {
           <LogoRow logos={linha2} />
           <LogoRow logos={linha3} />
         </div>
-        <a href={whatsappUrl} className="btnHeader">
+        <a href={whatsappUrl} className="btnHeader2">
           Fale conosco e seja nosso cliente{" "}
         </a>
       </div>

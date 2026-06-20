@@ -26,7 +26,7 @@ export default function CTAFinal() {
           <div>✓ Redução de riscos trabalhistas</div>
         </div>
 
-        <a href={whatsappUrl} className="btnCTA">
+        <a href={whatsappUrl} className="btnHeader2">
           Solicitar Orçamento
         </a>
       </div>

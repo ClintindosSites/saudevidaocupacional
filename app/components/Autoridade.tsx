@@ -47,7 +47,7 @@ export default function Autoridade() {
           href={whatsappUrl}
           target="_blank"
           rel="noreferrer"
-          className="btnHeader"
+          className="btnHeader2"
         >
           Transforme sua empresa em nossa cliente hoje mesmo
         </a>

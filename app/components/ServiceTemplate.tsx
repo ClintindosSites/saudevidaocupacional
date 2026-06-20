@@ -17,7 +17,7 @@ export default function ServiceTemplate({ service }: Props) {
           <div className="text">
             <h1 className="title">{service.hero.title}</h1>
             <p className="subtitle">{service.hero.subtitle}</p>
-            <a href={whatsappUrl} className="btnHeader">
+            <a href={whatsappUrl} className="btnHeader2">
               {service.cta.buttonText}
             </a>
           </div>
@@ -36,7 +36,7 @@ export default function ServiceTemplate({ service }: Props) {
 
               <a
                 href={whatsappUrl}
-                className="btnHeader"
+                className="btnHeader2"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -64,7 +64,7 @@ export default function ServiceTemplate({ service }: Props) {
               </div>
             ))}
           </div>
-          <a href={whatsappUrl} className="btnHeader">
+          <a href={whatsappUrl} className="btnHeader2">
             Solicitar atendimento Agora
           </a>
         </div>
@@ -77,7 +77,7 @@ export default function ServiceTemplate({ service }: Props) {
             <span className="text-[#89b5f1]">{service.cta.title}</span>
           </h2>
           <p>{service.cta.description}</p>
-          <a href={whatsappUrl} className="btnHeader">
+          <a href={whatsappUrl} className="btnHeader2">
             {service.cta.buttonText}
           </a>
         </div>
