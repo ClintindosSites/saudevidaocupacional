@@ -2,6 +2,336 @@ import { ServiceData } from "@/types/service";
 
 export const servicos: ServiceData[] = [
   {
+    slug: "medicina-do-trabalho",
+
+    title: "Medicina do Trabalho",
+    benefitsSection: {
+      title:
+        "Sua empresa está realmente protegida em relação à saúde ocupacional?",
+      subtitle:
+        "Conheça os benefícios de uma gestão completa em Medicina do Trabalho.",
+    },
+    description: "Soluções completas em Medicina do Trabalho para empresas",
+    hero: {
+      title:
+        "Sua empresa está em conformidade com as exigências da Medicina do Trabalho?",
+      subtitle:
+        "Proteja seus colaboradores, reduza riscos e evite problemas trabalhistas com uma gestão completa de SST.",
+    },
+    heroImage: "/medicina-do-trabalho.webp",
+    painImage: "/medicina-do-trabalho-image.webp",
+
+    benefits: [
+      {
+        title: "Conformidade com a legislação",
+        description:
+          "Mantenha sua empresa em conformidade com as exigências da Medicina do Trabalho e evite multas, notificações e passivos trabalhistas.",
+      },
+
+      {
+        title: "Gestão da saúde ocupacional",
+        description:
+          "Monitore a saúde dos colaboradores por meio de programas, exames e acompanhamentos que promovem mais segurança e qualidade de vida.",
+      },
+
+      {
+        title: "Redução de afastamentos",
+        description:
+          "Identifique riscos e problemas de saúde precocemente, reduzindo afastamentos, absenteísmo e impactos na produtividade.",
+      },
+
+      {
+        title: "Segurança jurídica para a empresa",
+        description:
+          "Conte com documentação técnica, laudos e processos adequados para proteger sua empresa em auditorias, fiscalizações e demandas trabalhistas.",
+      },
+    ],
+
+    introTitle: "O que é Medicina do Trabalho?",
+
+    introText:
+      "A Medicina do Trabalho é uma área especializada na promoção da saúde, prevenção de doenças ocupacionais e acompanhamento da saúde dos colaboradores. Por meio de programas obrigatórios, exames ocupacionais e gestão da saúde ocupacional, sua empresa reduz riscos, atende às exigências legais e protege seus trabalhadores.",
+    cta: {
+      title:
+        "Cuide da saúde dos seus colaboradores e mantenha sua empresa em conformidade.",
+
+      description:
+        "Oferecemos soluções completas em Medicina do Trabalho, incluindo PCMSO, exames ocupacionais, ASO e gestão da saúde ocupacional para empresas de todos os portes.",
+
+      buttonText: "Solicitar Consultoria",
+
+      whatsappMessage:
+        "Olá, vim do Google e gostaria de conhecer as soluções de Medicina do Trabalho para minha empresa.",
+    },
+    faq: [
+      {
+        question: "O que faz a Medicina do Trabalho?",
+        answer:
+          "A Medicina do Trabalho atua na prevenção de doenças ocupacionais, promoção da saúde dos colaboradores e atendimento às exigências legais relacionadas à saúde ocupacional.",
+      },
+
+      {
+        question: "Toda empresa precisa contratar Medicina do Trabalho?",
+        answer:
+          "Sim. Empresas que possuem empregados registrados precisam cumprir obrigações relacionadas à saúde ocupacional previstas na legislação trabalhista.",
+      },
+
+      {
+        question: "Quais serviços fazem parte da Medicina do Trabalho?",
+        answer:
+          "Exames ocupacionais, PCMSO, ASO, gestão de saúde ocupacional, monitoramento da saúde dos trabalhadores e suporte ao eSocial SST.",
+      },
+
+      {
+        question:
+          "Qual a diferença entre Medicina do Trabalho e Segurança do Trabalho?",
+        answer:
+          "A Medicina do Trabalho possui foco na saúde dos colaboradores, enquanto a Segurança do Trabalho atua na prevenção de acidentes e controle dos riscos ocupacionais.",
+      },
+
+      {
+        question: "O ASO é obrigatório?",
+        answer:
+          "Sim. O Atestado de Saúde Ocupacional (ASO) é obrigatório para admissão, exames periódicos, mudança de função, retorno ao trabalho e desligamento do colaborador.",
+      },
+
+      {
+        question: "O PCMSO é obrigatório?",
+        answer:
+          "Sim. O Programa de Controle Médico de Saúde Ocupacional é exigido para empresas que possuem empregados sob regime CLT.",
+      },
+    ],
+
+    seo: {
+      title:
+        "Medicina do Trabalho para Empresas | Exames, PCMSO e Saúde Ocupacional",
+
+      description:
+        "Soluções completas em Medicina do Trabalho para empresas. Exames ocupacionais, PCMSO, ASO, gestão da saúde ocupacional e conformidade legal.",
+
+      keywords: [
+        "medicina do trabalho",
+        "saúde ocupacional",
+        "PCMSO",
+        "ASO",
+        "exames ocupacionais",
+        "médico do trabalho",
+        "gestão de saúde ocupacional",
+        "consultoria medicina do trabalho",
+        "saúde e segurança do trabalho",
+        "NR07",
+        "eSocial SST",
+        "empresa de medicina do trabalho",
+      ],
+    },
+  },
+  {
+    slug: "seguranca-do-trabalho",
+
+    title: "Segurança do Trabalho",
+    benefitsSection: {
+      title: "Por que investir em Segurança do Trabalho?",
+      subtitle:
+        "Empresas seguras são mais produtivas, eficientes e protegidas juridicamente.",
+    },
+
+    description: "Gestão de Segurança do Trabalho para Empresas",
+
+    heroImage: "/seguranca-do-trabalho.webp",
+    painImage: "/seguranca-do-trabalho-image.webp",
+
+    hero: {
+      title:
+        "Proteja seus colaboradores e mantenha sua empresa em conformidade.",
+      subtitle:
+        "Consultoria completa em Segurança do Trabalho e Normas Regulamentadoras.",
+    },
+
+    benefits: [
+      {
+        title: "Redução de acidentes",
+        description:
+          "Implemente medidas preventivas que reduzem acidentes de trabalho, afastamentos e prejuízos operacionais para sua empresa.",
+      },
+
+      {
+        title: "Conformidade com as NRs",
+        description:
+          "Mantenha sua empresa alinhada às Normas Regulamentadoras e preparada para fiscalizações dos órgãos competentes.",
+      },
+
+      {
+        title: "Menor risco de autuações",
+        description:
+          "Evite multas, notificações e passivos trabalhistas por meio de uma gestão eficiente da Saúde e Segurança do Trabalho.",
+      },
+
+      {
+        title: "Ambiente de trabalho mais seguro",
+        description:
+          "Promova a proteção dos colaboradores e fortaleça a cultura de segurança dentro da organização.",
+      },
+    ],
+
+    introTitle: "O que é Segurança do Trabalho?",
+
+    introText:
+      "A Segurança do Trabalho reúne ações, programas e procedimentos voltados para a prevenção de acidentes e doenças ocupacionais. Além de proteger os colaboradores, uma gestão eficiente de SST ajuda a reduzir custos, evitar multas e garantir conformidade com a legislação vigente.",
+
+    cta: {
+      title:
+        "Proteja seus colaboradores e mantenha sua empresa em conformidade.",
+
+      description:
+        "Conte com consultoria especializada em Segurança do Trabalho para reduzir acidentes, atender às Normas Regulamentadoras e proteger sua empresa contra multas e processos trabalhistas.",
+
+      buttonText: "Falar com um Especialista",
+
+      whatsappMessage:
+        "Olá, vim do Google e gostaria de uma consultoria em Segurança do Trabalho.",
+    },
+
+    faq: [
+      {
+        question: "Toda empresa precisa investir em Segurança do Trabalho?",
+        answer:
+          "Sim. As exigências variam conforme a atividade econômica e os riscos ocupacionais existentes.",
+      },
+      {
+        question: "Quais normas regulamentadoras são mais importantes?",
+        answer:
+          "As principais variam conforme o setor, mas NR-01, NR-06, NR-07, NR-09 e NR-17 estão entre as mais comuns.",
+      },
+      {
+        question: "Quais empresas precisam cumprir as Normas Regulamentadoras?",
+        answer:
+          "Todas as empresas que possuem empregados registrados devem atender às exigências das Normas Regulamentadoras aplicáveis à sua atividade.",
+      },
+      {
+        question: "O que acontece se a empresa não cumprir as normas de SST?",
+        answer:
+          "A empresa pode sofrer multas, interdições, processos trabalhistas e responsabilização em casos de acidentes ocupacionais.",
+      },
+      {
+        question: "Quais documentos fazem parte da Segurança do Trabalho?",
+        answer:
+          "Dependendo da atividade da empresa, podem ser exigidos documentos como PGR, LTCAT, PCMSO, AET e laudos técnicos complementares.",
+      },
+    ],
+
+    seo: {
+      title:
+        "Segurança do Trabalho para Empresas | Consultoria SST e Normas Regulamentadoras",
+
+      description:
+        "Consultoria completa em Segurança do Trabalho para empresas. Reduza acidentes, atenda às Normas Regulamentadoras e evite multas trabalhistas.",
+
+      keywords: [
+        "segurança do trabalho",
+        "consultoria SST",
+        "segurança ocupacional",
+        "normas regulamentadoras",
+        "SST",
+        "prevenção de acidentes",
+        "gestão de segurança do trabalho",
+        "engenharia de segurança",
+        "saúde e segurança do trabalho",
+      ],
+    },
+  },
+  {
+    slug: "ergonomia",
+
+    title: "Ergonomia AET/AEP",
+    benefitsSection: {
+      title: "Como a Ergonomia pode transformar o ambiente de trabalho?",
+      subtitle: "Mais conforto, produtividade e menos afastamentos.",
+    },
+
+    description: "Análise Ergonômica do Trabalho e Adequação à NR-17",
+    hero: {
+      title: "Reduza afastamentos e aumente a produtividade da sua equipe.",
+      subtitle:
+        "Análise Ergonômica do Trabalho (AET), Avaliação Ergonômica Preliminar (AEP) e adequação completa à NR-17.",
+    },
+
+    heroImage: "/ergonomia.webp",
+    painImage: "/ergonomia-sst-image.webp",
+    benefits: [
+      {
+        title: "Redução de afastamentos",
+        description:
+          "Identifique e corrija fatores ergonômicos que podem causar dores, lesões e afastamentos, reduzindo custos e impactos na operação da empresa.",
+      },
+
+      {
+        title: "Maior produtividade",
+        description:
+          "Colaboradores que trabalham com conforto e segurança tendem a produzir mais, cometer menos erros e apresentar melhor desempenho no dia a dia.",
+      },
+
+      {
+        title: "Adequação à NR-17",
+        description:
+          "Mantenha sua empresa em conformidade com a Norma Regulamentadora 17 e preparada para fiscalizações, auditorias e exigências legais.",
+      },
+
+      {
+        title: "Melhoria do ambiente de trabalho",
+        description:
+          "Promova mais qualidade de vida, conforto e bem-estar para sua equipe, fortalecendo o clima organizacional e a satisfação dos colaboradores.",
+      },
+    ],
+
+    introTitle: "O que é Ergonomia?",
+
+    introText:
+      "A ergonomia adapta as condições de trabalho às características físicas e cognitivas dos colaboradores, reduzindo riscos ocupacionais, prevenindo lesões, aumentando a produtividade e garantindo conformidade com a NR-17.",
+    cta: {
+      title: "Reduza afastamentos e melhore a produtividade da sua equipe.",
+
+      description:
+        "Realizamos AEP, AET e avaliações ergonômicas completas para adequar sua empresa à NR-17, melhorar o conforto dos colaboradores e reduzir riscos de lesões ocupacionais.",
+
+      buttonText: "Solicitar Análise Ergonômica",
+
+      whatsappMessage:
+        "Olá, vim do Google e gostaria de solicitar uma análise ergonômica para minha empresa.",
+    },
+    faq: [
+      {
+        question: "Quando a empresa precisa realizar uma análise ergonômica?",
+        answer:
+          "A análise é recomendada para identificar riscos ergonômicos e pode ser exigida durante fiscalizações ou processos trabalhistas.",
+      },
+      {
+        question: "O que é a AET?",
+        answer:
+          "A Análise Ergonômica do Trabalho (AET) é um estudo técnico que avalia as condições ergonômicas do ambiente laboral.",
+      },
+    ],
+    seo: {
+      title: "Ergonomia para Empresas | AET e Adequação à NR-17",
+
+      description:
+        "Serviços de ergonomia empresarial, Análise Ergonômica do Trabalho (AET) e adequação à NR-17. Reduza afastamentos, aumente a produtividade e mantenha sua empresa em conformidade.",
+
+      keywords: [
+        "ergonomia",
+        "AET",
+        "análise ergonômica do trabalho",
+        "NR17",
+        "ergonomia empresarial",
+        "laudo ergonômico",
+        "ergonomia no trabalho",
+        "consultoria ergonomia",
+        "análise ergonômica",
+      ],
+    },
+  },
+  /* 
+
+  {
     slug: "pcmso",
 
     title: "PCMSO",
@@ -260,96 +590,7 @@ export const servicos: ServiceData[] = [
       ],
     },
   },
-  {
-    slug: "ergonomia",
 
-    title: "Ergonomia AET/AEP",
-    benefitsSection: {
-      title: "Como a Ergonomia pode transformar o ambiente de trabalho?",
-      subtitle: "Mais conforto, produtividade e menos afastamentos.",
-    },
-
-    description: "Análise Ergonômica do Trabalho e Adequação à NR-17",
-    hero: {
-      title: "Reduza afastamentos e aumente a produtividade da sua equipe.",
-      subtitle:
-        "Análise Ergonômica do Trabalho (AET), Avaliação Ergonômica Preliminar (AEP) e adequação completa à NR-17.",
-    },
-
-    heroImage: "/ergonomia.webp",
-    painImage: "/ergonomia-sst-image.webp",
-    benefits: [
-      {
-        title: "Redução de afastamentos",
-        description:
-          "Identifique e corrija fatores ergonômicos que podem causar dores, lesões e afastamentos, reduzindo custos e impactos na operação da empresa.",
-      },
-
-      {
-        title: "Maior produtividade",
-        description:
-          "Colaboradores que trabalham com conforto e segurança tendem a produzir mais, cometer menos erros e apresentar melhor desempenho no dia a dia.",
-      },
-
-      {
-        title: "Adequação à NR-17",
-        description:
-          "Mantenha sua empresa em conformidade com a Norma Regulamentadora 17 e preparada para fiscalizações, auditorias e exigências legais.",
-      },
-
-      {
-        title: "Melhoria do ambiente de trabalho",
-        description:
-          "Promova mais qualidade de vida, conforto e bem-estar para sua equipe, fortalecendo o clima organizacional e a satisfação dos colaboradores.",
-      },
-    ],
-
-    introTitle: "O que é Ergonomia?",
-
-    introText:
-      "A ergonomia adapta as condições de trabalho às características físicas e cognitivas dos colaboradores, reduzindo riscos ocupacionais, prevenindo lesões, aumentando a produtividade e garantindo conformidade com a NR-17.",
-    cta: {
-      title: "Reduza afastamentos e melhore a produtividade da sua equipe.",
-
-      description:
-        "Realizamos AEP, AET e avaliações ergonômicas completas para adequar sua empresa à NR-17, melhorar o conforto dos colaboradores e reduzir riscos de lesões ocupacionais.",
-
-      buttonText: "Solicitar Análise Ergonômica",
-
-      whatsappMessage:
-        "Olá, vim do Google e gostaria de solicitar uma análise ergonômica para minha empresa.",
-    },
-    faq: [
-      {
-        question: "Quando a empresa precisa realizar uma análise ergonômica?",
-        answer:
-          "A análise é recomendada para identificar riscos ergonômicos e pode ser exigida durante fiscalizações ou processos trabalhistas.",
-      },
-      {
-        question: "O que é a AET?",
-        answer:
-          "A Análise Ergonômica do Trabalho (AET) é um estudo técnico que avalia as condições ergonômicas do ambiente laboral.",
-      },
-    ],
-    seo: {
-      title: "Ergonomia para Empresas | AET e Adequação à NR-17",
-
-      description:
-        "Serviços de ergonomia empresarial, Análise Ergonômica do Trabalho (AET) e adequação à NR-17. Reduza afastamentos, aumente a produtividade e mantenha sua empresa em conformidade.",
-
-      keywords: [
-        "ergonomia",
-        "AET",
-        "análise ergonômica do trabalho",
-        "NR17",
-        "ergonomia empresarial",
-        "laudo ergonômico",
-        "ergonomia no trabalho",
-        "consultoria ergonomia",
-        "análise ergonômica",
-      ],
-    },
-  },
   {
     slug: "ltcat",
 
@@ -575,120 +816,7 @@ export const servicos: ServiceData[] = [
       ],
     },
   },
-  {
-    slug: "seguranca-do-trabalho",
 
-    title: "Segurança do Trabalho",
-    benefitsSection: {
-      title: "Por que investir em Segurança do Trabalho?",
-      subtitle:
-        "Empresas seguras são mais produtivas, eficientes e protegidas juridicamente.",
-    },
-
-    description: "Gestão de Segurança do Trabalho para Empresas",
-
-    heroImage: "/seguranca-do-trabalho.webp",
-    painImage: "/seguranca-do-trabalho-image.webp",
-
-    hero: {
-      title:
-        "Proteja seus colaboradores e mantenha sua empresa em conformidade.",
-      subtitle:
-        "Consultoria completa em Segurança do Trabalho e Normas Regulamentadoras.",
-    },
-
-    benefits: [
-      {
-        title: "Redução de acidentes",
-        description:
-          "Implemente medidas preventivas que reduzem acidentes de trabalho, afastamentos e prejuízos operacionais para sua empresa.",
-      },
-
-      {
-        title: "Conformidade com as NRs",
-        description:
-          "Mantenha sua empresa alinhada às Normas Regulamentadoras e preparada para fiscalizações dos órgãos competentes.",
-      },
-
-      {
-        title: "Menor risco de autuações",
-        description:
-          "Evite multas, notificações e passivos trabalhistas por meio de uma gestão eficiente da Saúde e Segurança do Trabalho.",
-      },
-
-      {
-        title: "Ambiente de trabalho mais seguro",
-        description:
-          "Promova a proteção dos colaboradores e fortaleça a cultura de segurança dentro da organização.",
-      },
-    ],
-
-    introTitle: "O que é Segurança do Trabalho?",
-
-    introText:
-      "A Segurança do Trabalho reúne ações, programas e procedimentos voltados para a prevenção de acidentes e doenças ocupacionais. Além de proteger os colaboradores, uma gestão eficiente de SST ajuda a reduzir custos, evitar multas e garantir conformidade com a legislação vigente.",
-
-    cta: {
-      title:
-        "Proteja seus colaboradores e mantenha sua empresa em conformidade.",
-
-      description:
-        "Conte com consultoria especializada em Segurança do Trabalho para reduzir acidentes, atender às Normas Regulamentadoras e proteger sua empresa contra multas e processos trabalhistas.",
-
-      buttonText: "Falar com um Especialista",
-
-      whatsappMessage:
-        "Olá, vim do Google e gostaria de uma consultoria em Segurança do Trabalho.",
-    },
-
-    faq: [
-      {
-        question: "Toda empresa precisa investir em Segurança do Trabalho?",
-        answer:
-          "Sim. As exigências variam conforme a atividade econômica e os riscos ocupacionais existentes.",
-      },
-      {
-        question: "Quais normas regulamentadoras são mais importantes?",
-        answer:
-          "As principais variam conforme o setor, mas NR-01, NR-06, NR-07, NR-09 e NR-17 estão entre as mais comuns.",
-      },
-      {
-        question: "Quais empresas precisam cumprir as Normas Regulamentadoras?",
-        answer:
-          "Todas as empresas que possuem empregados registrados devem atender às exigências das Normas Regulamentadoras aplicáveis à sua atividade.",
-      },
-      {
-        question: "O que acontece se a empresa não cumprir as normas de SST?",
-        answer:
-          "A empresa pode sofrer multas, interdições, processos trabalhistas e responsabilização em casos de acidentes ocupacionais.",
-      },
-      {
-        question: "Quais documentos fazem parte da Segurança do Trabalho?",
-        answer:
-          "Dependendo da atividade da empresa, podem ser exigidos documentos como PGR, LTCAT, PCMSO, AET e laudos técnicos complementares.",
-      },
-    ],
-
-    seo: {
-      title:
-        "Segurança do Trabalho para Empresas | Consultoria SST e Normas Regulamentadoras",
-
-      description:
-        "Consultoria completa em Segurança do Trabalho para empresas. Reduza acidentes, atenda às Normas Regulamentadoras e evite multas trabalhistas.",
-
-      keywords: [
-        "segurança do trabalho",
-        "consultoria SST",
-        "segurança ocupacional",
-        "normas regulamentadoras",
-        "SST",
-        "prevenção de acidentes",
-        "gestão de segurança do trabalho",
-        "engenharia de segurança",
-        "saúde e segurança do trabalho",
-      ],
-    },
-  },
   {
     slug: "avaliacoes-ambientais",
 
@@ -925,128 +1053,5 @@ export const servicos: ServiceData[] = [
       ],
     },
   },
-  {
-    slug: "medicina-do-trabalho",
-
-    title: "Medicina do Trabalho",
-    benefitsSection: {
-      title:
-        "Sua empresa está realmente protegida em relação à saúde ocupacional?",
-      subtitle:
-        "Conheça os benefícios de uma gestão completa em Medicina do Trabalho.",
-    },
-    description: "Soluções completas em Medicina do Trabalho para empresas",
-    hero: {
-      title:
-        "Sua empresa está em conformidade com as exigências da Medicina do Trabalho?",
-      subtitle:
-        "Proteja seus colaboradores, reduza riscos e evite problemas trabalhistas com uma gestão completa de SST.",
-    },
-    heroImage: "/medicina-do-trabalho.webp",
-    painImage: "/medicina-do-trabalho-image.webp",
-
-    benefits: [
-      {
-        title: "Conformidade com a legislação",
-        description:
-          "Mantenha sua empresa em conformidade com as exigências da Medicina do Trabalho e evite multas, notificações e passivos trabalhistas.",
-      },
-
-      {
-        title: "Gestão da saúde ocupacional",
-        description:
-          "Monitore a saúde dos colaboradores por meio de programas, exames e acompanhamentos que promovem mais segurança e qualidade de vida.",
-      },
-
-      {
-        title: "Redução de afastamentos",
-        description:
-          "Identifique riscos e problemas de saúde precocemente, reduzindo afastamentos, absenteísmo e impactos na produtividade.",
-      },
-
-      {
-        title: "Segurança jurídica para a empresa",
-        description:
-          "Conte com documentação técnica, laudos e processos adequados para proteger sua empresa em auditorias, fiscalizações e demandas trabalhistas.",
-      },
-    ],
-
-    introTitle: "O que é Medicina do Trabalho?",
-
-    introText:
-      "A Medicina do Trabalho é uma área especializada na promoção da saúde, prevenção de doenças ocupacionais e acompanhamento da saúde dos colaboradores. Por meio de programas obrigatórios, exames ocupacionais e gestão da saúde ocupacional, sua empresa reduz riscos, atende às exigências legais e protege seus trabalhadores.",
-    cta: {
-      title:
-        "Cuide da saúde dos seus colaboradores e mantenha sua empresa em conformidade.",
-
-      description:
-        "Oferecemos soluções completas em Medicina do Trabalho, incluindo PCMSO, exames ocupacionais, ASO e gestão da saúde ocupacional para empresas de todos os portes.",
-
-      buttonText: "Solicitar Consultoria",
-
-      whatsappMessage:
-        "Olá, vim do Google e gostaria de conhecer as soluções de Medicina do Trabalho para minha empresa.",
-    },
-    faq: [
-      {
-        question: "O que faz a Medicina do Trabalho?",
-        answer:
-          "A Medicina do Trabalho atua na prevenção de doenças ocupacionais, promoção da saúde dos colaboradores e atendimento às exigências legais relacionadas à saúde ocupacional.",
-      },
-
-      {
-        question: "Toda empresa precisa contratar Medicina do Trabalho?",
-        answer:
-          "Sim. Empresas que possuem empregados registrados precisam cumprir obrigações relacionadas à saúde ocupacional previstas na legislação trabalhista.",
-      },
-
-      {
-        question: "Quais serviços fazem parte da Medicina do Trabalho?",
-        answer:
-          "Exames ocupacionais, PCMSO, ASO, gestão de saúde ocupacional, monitoramento da saúde dos trabalhadores e suporte ao eSocial SST.",
-      },
-
-      {
-        question:
-          "Qual a diferença entre Medicina do Trabalho e Segurança do Trabalho?",
-        answer:
-          "A Medicina do Trabalho possui foco na saúde dos colaboradores, enquanto a Segurança do Trabalho atua na prevenção de acidentes e controle dos riscos ocupacionais.",
-      },
-
-      {
-        question: "O ASO é obrigatório?",
-        answer:
-          "Sim. O Atestado de Saúde Ocupacional (ASO) é obrigatório para admissão, exames periódicos, mudança de função, retorno ao trabalho e desligamento do colaborador.",
-      },
-
-      {
-        question: "O PCMSO é obrigatório?",
-        answer:
-          "Sim. O Programa de Controle Médico de Saúde Ocupacional é exigido para empresas que possuem empregados sob regime CLT.",
-      },
-    ],
-
-    seo: {
-      title:
-        "Medicina do Trabalho para Empresas | Exames, PCMSO e Saúde Ocupacional",
-
-      description:
-        "Soluções completas em Medicina do Trabalho para empresas. Exames ocupacionais, PCMSO, ASO, gestão da saúde ocupacional e conformidade legal.",
-
-      keywords: [
-        "medicina do trabalho",
-        "saúde ocupacional",
-        "PCMSO",
-        "ASO",
-        "exames ocupacionais",
-        "médico do trabalho",
-        "gestão de saúde ocupacional",
-        "consultoria medicina do trabalho",
-        "saúde e segurança do trabalho",
-        "NR07",
-        "eSocial SST",
-        "empresa de medicina do trabalho",
-      ],
-    },
-  },
+*/
 ];

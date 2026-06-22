@@ -44,26 +44,7 @@ export default function Footer() {
 
               <li>
                 {" "}
-                <Link href="/servicos/exames-ocupacionais">
-                  Exames Admissionais
-                </Link>
-              </li>
-              <Link href={"/servicos/ltcat"}>LTCAT</Link>
-              <li>
-                {" "}
-                <Link href={"/servicos/pcmso"}>PCMSO</Link>
-              </li>
-              <li>
-                {" "}
-                <Link href={"/servicos/pgr"}>PGR</Link>
-              </li>
-              <li>
-                {" "}
                 <Link href={"/servicos/ergonomia"}>Ergonomia</Link>
-              </li>
-              <li>
-                {" "}
-                <Link href="/servicos/eSocial">eSocial</Link>
               </li>
             </ul>
           </div>
@@ -76,11 +57,11 @@ export default function Footer() {
 
               <li>contato@saudevida.com.br</li>
 
-              <li>Belo Horizonte - MG</li>
+              <li>Betim - MG</li>
 
-              <li>Segunda a Sexta</li>
+              <li>Segunda-feira a Quinta-feira de 07:00 as 17:00</li>
 
-              <li>08h às 18h</li>
+              <li>Sexta-feira de 07:00 as 16:00</li>
             </ul>
           </div>
         </div>

@@ -38,7 +38,7 @@ export default function PainSolution() {
 
         <div className="imgBox">
           <img
-            src="/logo.png"
+            src="/sobre-bg.webp"
             alt="Saúde e Vida Medicina e Segurança do Trabalho"
           />
         </div>

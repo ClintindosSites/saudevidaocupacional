@@ -14,6 +14,33 @@ import {
 import { whatsappUrl } from "@/constants/whatsapp";
 const servicosHome = [
   {
+    title: "Medicina do Trabalho",
+    slug: "medicina-do-trabalho",
+    image: "/exames-ocupacionais-image.webp",
+    description:
+      "Soluções completas em saúde ocupacional para proteger colaboradores, reduzir riscos e manter sua empresa em conformidade.",
+    icon: HeartPulse,
+  },
+
+  {
+    title: "Segurança do Trabalho",
+    slug: "seguranca-do-trabalho",
+    image: "/seguranca-do-trabalho-image.webp",
+    description:
+      "Consultoria especializada em SST para prevenção de acidentes, conformidade com as NRs e proteção dos colaboradores.",
+    icon: HardHat,
+  },
+  {
+    title: "Ergonomia - AEP/AET",
+    slug: "ergonomia",
+    image: "/ergonomia-card.webp",
+    description:
+      "Análises ergonômicas, AEP, AET e avaliação dos fatores psicossociais para adequação à NR-17 e melhoria das condições de trabalho.",
+    icon: PersonStanding,
+  },
+  /*
+  
+  {
     title: "PCMSO",
     slug: "pcmso",
     image: "/pcmso-card.webp",
@@ -58,23 +85,8 @@ const servicosHome = [
     icon: FileSpreadsheet,
   },
 
-  {
-    title: "Ergonomia - AEP/AET",
-    slug: "ergonomia",
-    image: "/ergonomia-card.webp",
-    description:
-      "Análises ergonômicas, AEP, AET e avaliação dos fatores psicossociais para adequação à NR-17 e melhoria das condições de trabalho.",
-    icon: PersonStanding,
-  },
 
-  {
-    title: "Segurança do Trabalho",
-    slug: "seguranca-do-trabalho",
-    image: "/seguranca-do-trabalho-image.webp",
-    description:
-      "Consultoria especializada em SST para prevenção de acidentes, conformidade com as NRs e proteção dos colaboradores.",
-    icon: HardHat,
-  },
+
 
   {
     title: "Avaliações Ambientais",
@@ -94,14 +106,7 @@ const servicosHome = [
     icon: GraduationCap,
   },
 
-  {
-    title: "Medicina do Trabalho",
-    slug: "medicina-do-trabalho",
-    image: "/exames-ocupacionais-image.webp",
-    description:
-      "Soluções completas em saúde ocupacional para proteger colaboradores, reduzir riscos e manter sua empresa em conformidade.",
-    icon: HeartPulse,
-  },
+  */
 ];
 
 export default function Servicos() {
@@ -110,11 +115,12 @@ export default function Servicos() {
       <div className="container">
         <div className="text text-2">
           <h2>
-            O que faremos <br /> <span>pela sua empresa?</span>
+            Nossos <span>Serviços</span>
           </h2>
-          <a href={whatsappUrl} target="_blank" className="btnHeader2">
-            Fale Conosco
-          </a>
+          <p>
+            Saiba todos os serviços que nós da{" "}
+            <span>Saúde e Vida Ocupacional</span> oferecemos a você
+          </p>
         </div>
         <div className="servicos-grid">
           {servicosHome.map(servico => {
@@ -149,6 +155,9 @@ export default function Servicos() {
             );
           })}
         </div>
+        <a href={whatsappUrl} target="_blank" className="btnHeader2">
+          Fale Conosco
+        </a>
       </div>
     </section>
   );

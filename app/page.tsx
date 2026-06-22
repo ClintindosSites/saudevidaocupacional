@@ -1,6 +1,6 @@
 import Autoridade from "./components/Autoridade";
 import Avaliacoes from "./components/Avaliacoes";
-import Beneficios from "./components/Beneficios";
+
 import CTAFinal from "./components/CTAFinal";
 import EmpresasAjudadas from "./components/EmpresasAjudadas";
 import FAQ from "./components/FAQ";
@@ -14,7 +14,7 @@ export default function Home() {
       <Hero />
       <PainSolution />
       <Servicos />
-      <Beneficios />
+
       <Autoridade />
       <EmpresasAjudadas />
       <Avaliacoes />
