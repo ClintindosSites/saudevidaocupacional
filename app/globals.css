@@ -115,6 +115,16 @@ h1 span {
   transition: 0.2s;
   font-weight: 500;
 }
+.btnHeader3 {
+  background-color: #ec3035;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+  border: 1px solid #ec3035;
+}
 .nav .btnHeader2 {
   color: #ec3035;
   font-weight: 600;
@@ -318,7 +328,7 @@ h1 span {
 .hero,
 .ctaFinal {
   position: relative;
-  background-image: url("/hero-saude-e-vida.webp");
+  background-image: url("/hero-2.png");
   background-size: cover;
   background-position: center;
   min-height: 85vh;
