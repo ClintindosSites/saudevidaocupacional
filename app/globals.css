@@ -10,6 +10,7 @@
 html,
 body {
   font-family: var(--font-Manrope), sans-serif;
+  scroll-behavior: smooth;
 }
 body {
   font-family: var(--font-Manrope);
@@ -70,6 +71,9 @@ h1 span {
   border-bottom: 1px solid #ececec;
   transition: all 0.3s ease;
 }
+.header .btnHeader3 {
+  color: #fff;
+}
 .header.scrolled {
   box-shadow: 0 5px 25px rgba(0, 0, 0, 0.08);
 }
@@ -115,7 +119,7 @@ h1 span {
   transition: 0.2s;
   font-weight: 500;
 }
-.btnHeader3 {
+.btnHeader4 {
   background-color: #ec3035;
   color: #fff;
   padding: 12px 22px;
@@ -124,6 +128,18 @@ h1 span {
   cursor: pointer;
   border: none;
   border: 1px solid #ec3035;
+  z-index: 1000;
+}
+.btnHeader3 {
+  background-color: #128c7e;
+  color: #fff;
+  padding: 12px 22px;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  border: none;
+
+  z-index: 1000;
 }
 .nav .btnHeader2 {
   color: #ec3035;
@@ -450,7 +466,13 @@ option {
   line-height: 1;
 }
 /*Servicos*/
+.servicos-grid {
+  transition: all 0.4s ease;
+}
 
+.servicos {
+  background: #fafafa;
+}
 .servicos .container {
   display: flex;
   flex-direction: column;
@@ -1445,8 +1467,10 @@ option {
 .serviceHero p {
   color: #fff;
 }
-.serviceHero .btnHeader {
-  margin: 0 auto;
+.serviceHero .text {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .ctaFinal .container h2 {
   font-size: 1.5rem;
@@ -1463,8 +1487,7 @@ option {
 
   width: 70px;
   height: 70px;
-
-  background: #25d366;
+  background-color: #128c7e;
   color: white;
 
   border-radius: 50%;
@@ -1671,4 +1694,15 @@ option {
 }
 .icon {
   color: #ec3035;
+}
+.servicosPage .container {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 1.5rem;
+}
+.servicosPage .container .servicos-grid {
+  align-items: center;
+  justify-content: center;
 }

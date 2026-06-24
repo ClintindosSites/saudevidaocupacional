@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { useState, useEffect } from "react";
 import {
   Stethoscope,
   ShieldCheck,
@@ -12,6 +15,7 @@ import {
   HeartPulse,
 } from "lucide-react";
 import { whatsappUrl } from "@/constants/whatsapp";
+import Image from "next/image";
 const servicosHome = [
   {
     title: "Medicina do Trabalho",
@@ -38,8 +42,14 @@ const servicosHome = [
       "Análises ergonômicas, AEP, AET e avaliação dos fatores psicossociais para adequação à NR-17 e melhoria das condições de trabalho.",
     icon: PersonStanding,
   },
-  /*
-  
+  {
+    title: "Exames Ocupacionais",
+    slug: "exames-ocupacionais",
+    image: "/exame-ocupacional-card.webp",
+    description:
+      "Realizamos exames admissionais, periódicos, demissionais, retorno ao trabalho e mudança de função com emissão rápida de ASO.",
+    icon: ClipboardCheck,
+  },
   {
     title: "PCMSO",
     slug: "pcmso",
@@ -48,7 +58,6 @@ const servicosHome = [
       "Elaboração e gestão completa do Programa de Controle Médico de Saúde Ocupacional, com acompanhamento dos exames obrigatórios e conformidade com a NR-07.",
     icon: Stethoscope,
   },
-
   {
     title: "PGR",
     slug: "pgr",
@@ -56,15 +65,6 @@ const servicosHome = [
     description:
       "Identificação, avaliação e gerenciamento dos riscos ocupacionais da sua empresa para atendimento à NR-01 e redução de passivos trabalhistas.",
     icon: ShieldCheck,
-  },
-
-  {
-    title: "Exames Ocupacionais",
-    slug: "exames-ocupacionais",
-    image: "/exame-ocupacional-card.webp",
-    description:
-      "Realizamos exames admissionais, periódicos, demissionais, retorno ao trabalho e mudança de função com emissão rápida de ASO.",
-    icon: ClipboardCheck,
   },
 
   {
@@ -85,9 +85,6 @@ const servicosHome = [
     icon: FileSpreadsheet,
   },
 
-
-
-
   {
     title: "Avaliações Ambientais",
     slug: "avaliacoes-ambientais",
@@ -105,13 +102,28 @@ const servicosHome = [
       "Treinamentos obrigatórios conforme as Normas Regulamentadoras, com emissão de certificados e documentação completa.",
     icon: GraduationCap,
   },
-
-  */
 ];
 
 export default function Servicos() {
+  const [expanded, setExpanded] = useState(false);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkScreen = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    checkScreen();
+    window.addEventListener("resize", checkScreen);
+
+    return () => window.removeEventListener("resize", checkScreen);
+  }, []);
+
+  const visibleServices = expanded
+    ? servicosHome
+    : servicosHome.slice(0, isMobile ? 4 : 6);
   return (
-    <section className="servicos">
+    <section className="servicos" id="servicos">
       <div className="container">
         <div className="text text-2">
           <h2>
@@ -123,7 +135,7 @@ export default function Servicos() {
           </p>
         </div>
         <div className="servicos-grid">
-          {servicosHome.map(servico => {
+          {visibleServices.map(servico => {
             const Icon = servico.icon;
 
             return (
@@ -155,9 +167,9 @@ export default function Servicos() {
             );
           })}
         </div>
-        <a href={whatsappUrl} target="_blank" className="btnHeader2">
-          Fale Conosco
-        </a>
+        <button className="btnHeader4" onClick={() => setExpanded(!expanded)}>
+          {expanded ? "Ver menos" : "Ver mais"}
+        </button>
       </div>
     </section>
   );

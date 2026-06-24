@@ -31,7 +31,7 @@ export default function PainSolution() {
             normas de Saúde e Segurança do Trabalho.
           </p>
 
-          <a href={whatsappUrl} className="btnHeader2">
+          <a href={whatsappUrl} className="btnHeader3">
             Solicitar atendimento no WhatsApp
           </a>
         </div>

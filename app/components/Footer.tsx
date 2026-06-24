@@ -18,7 +18,7 @@ export default function Footer() {
               href={whatsappUrl}
               target="_blank"
               rel="noreferrer"
-              className="footer-whatsapp"
+              className="btnHeader3"
             >
               Falar com um Especialista
             </a>
@@ -55,7 +55,7 @@ export default function Footer() {
             <ul>
               <li>(31) 3532-3016</li>
 
-              <li>contato@saudevida.com.br</li>
+              <li>comercializacao@saudevidamed.com.br</li>
 
               <li>Betim - MG</li>
 
@@ -68,8 +68,8 @@ export default function Footer() {
 
         <div className="footer-bottom">
           <p>
-            © {new Date().getFullYear()} Saúde e Vida Medicina e Segurança do
-            Trabalho. Todos os direitos reservados.
+            © {new Date().getFullYear()} Saúde e Vida Ocupacional. Todos os
+            direitos reservados.
           </p>
 
           <p>

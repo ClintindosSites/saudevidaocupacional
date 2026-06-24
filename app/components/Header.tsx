@@ -61,8 +61,8 @@ export default function Header() {
 
         <nav className={`nav ${menuOpen ? "active" : ""}`}>
           <Link href="/">Home</Link>
-
-          <div className="dropdown">
+          <Link href="#servicos">Serviços</Link>
+          {/*      <div className="dropdown">
             <button className="dropdownBtn">Serviços</button>
 
             <div className="dropdownMenu">
@@ -94,12 +94,10 @@ export default function Header() {
 
               <Link href="/servicos/treinamentos-sst">Treinamentos SST</Link>
             </div>
-          </div>
+          </div> */}
 
-          <Link href="/#contato">Contato</Link>
-
-          <Link href={whatsappUrl} className="btnHeader2" target="_blank">
-            Solicitar Orçamento
+          <Link href={whatsappUrl} className="btnHeader3" target="_blank">
+            Contato
           </Link>
         </nav>
         {menuOpen && (

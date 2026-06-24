@@ -17,7 +17,7 @@ export default function ServiceTemplate({ service }: Props) {
           <div className="text">
             <h1 className="title">{service.hero.title}</h1>
             <p className="subtitle">{service.hero.subtitle}</p>
-            <a href={whatsappUrl} className="btnHeader2">
+            <a href={whatsappUrl} className="btnHeader3">
               {service.cta.buttonText}
             </a>
           </div>
@@ -36,7 +36,7 @@ export default function ServiceTemplate({ service }: Props) {
 
               <a
                 href={whatsappUrl}
-                className="btnHeader2"
+                className="btnHeader3"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -54,7 +54,7 @@ export default function ServiceTemplate({ service }: Props) {
       <section className="benefitsConversion">
         <div className="container">
           <div className="text">
-            <h2>Quais benefícios a {service.title} pode beneficiar minha</h2>
+            <h2>{service.benefitsSection.title}</h2>
           </div>
           <div className="beneficios-list">
             {service.benefits.map(item => (
@@ -64,7 +64,7 @@ export default function ServiceTemplate({ service }: Props) {
               </div>
             ))}
           </div>
-          <a href={whatsappUrl} className="btnHeader2">
+          <a href={whatsappUrl} className="btnHeader3">
             Solicitar atendimento Agora
           </a>
         </div>
@@ -77,7 +77,7 @@ export default function ServiceTemplate({ service }: Props) {
             <span className="text-[#89b5f1]">{service.cta.title}</span>
           </h2>
           <p>{service.cta.description}</p>
-          <a href={whatsappUrl} className="btnHeader2">
+          <a href={whatsappUrl} className="btnHeader3">
             {service.cta.buttonText}
           </a>
         </div>

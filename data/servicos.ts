@@ -329,7 +329,6 @@ export const servicos: ServiceData[] = [
       ],
     },
   },
-  /* 
 
   {
     slug: "pcmso",
@@ -1053,5 +1052,4 @@ export const servicos: ServiceData[] = [
       ],
     },
   },
-*/
 ];
