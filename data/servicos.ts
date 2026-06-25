@@ -698,7 +698,7 @@ export const servicos: ServiceData[] = [
     },
   },
   {
-    slug: "eSocial",
+    slug: "esocial",
 
     title: "eSocial SST",
     benefitsSection: {
@@ -710,7 +710,7 @@ export const servicos: ServiceData[] = [
     hero: {
       title: "Evite multas e mantenha todos os eventos do eSocial SST em dia.",
       subtitle:
-        "Gestão completa dos eventos S-2210, S-2220, S-2221 e S-2240 para sua empresa.",
+        "Gestão completa dos eventos S-2210, S-2220,  e S-2240 para sua empresa.",
     },
     heroImage: "/esocial.webp",
     painImage: "/eSocial-sst-image.webp",
@@ -719,7 +719,7 @@ export const servicos: ServiceData[] = [
       {
         title: "Envio correto dos eventos SST",
         description:
-          "Garanta o envio correto dos eventos S-2210, S-2220, S-2221 e S-2240, evitando inconsistências e problemas com o Governo Federal.",
+          "Garanta o envio correto dos eventos S-2210, S-2220,  e S-2240, evitando inconsistências e problemas com o Governo Federal.",
       },
 
       {
@@ -750,7 +750,7 @@ export const servicos: ServiceData[] = [
       title: "Evite multas e mantenha os eventos SST do eSocial em dia.",
 
       description:
-        "Nossa equipe realiza a gestão completa dos eventos S-2210, S-2220, S-2221 e S-2240, garantindo envio correto das informações e total conformidade com as exigências do Governo Federal.",
+        "Nossa equipe realiza a gestão completa dos eventos S-2210, S-2220,  e S-2240, garantindo envio correto das informações e total conformidade com as exigências do Governo Federal.",
 
       buttonText: "Regularizar eSocial SST",
 
@@ -767,7 +767,7 @@ export const servicos: ServiceData[] = [
       {
         question: "Quais eventos SST são enviados ao eSocial?",
         answer:
-          "Os principais eventos são S-2210 (Comunicação de Acidente de Trabalho - CAT), S-2220 (Monitoramento da Saúde do Trabalhador), S-2221 (Exame Toxicológico do Motorista Profissional) e S-2240 (Condições Ambientais do Trabalho).",
+          "Os principais eventos são S-2210 (Comunicação de Acidente de Trabalho - CAT), S-2220 (Monitoramento da Saúde do Trabalhador),  (Exame Toxicológico do Motorista Profissional) e S-2240 (Condições Ambientais do Trabalho).",
       },
       {
         question: "O envio do eSocial SST é obrigatório?",
@@ -787,14 +787,14 @@ export const servicos: ServiceData[] = [
       {
         question: "Quais eventos SST precisam ser enviados?",
         answer:
-          "Os principais eventos são S-2210 (CAT), S-2220 (Monitoramento da Saúde do Trabalhador), S-2221 (Exame Toxicológico do Motorista Profissional) e S-2240 (Condições Ambientais do Trabalho).",
+          "Os principais eventos são S-2210 (CAT), S-2220 (Monitoramento da Saúde do Trabalhador),  (Exame Toxicológico do Motorista Profissional) e S-2240 (Condições Ambientais do Trabalho).",
       },
     ],
 
     seo: {
-      title: "eSocial SST | Gestão dos Eventos S-2210, S-2220, S-2221 e S-2240",
+      title: "eSocial SST | Gestão dos Eventos S-2210, S-2220,  e S-2240",
       description:
-        "Gestão completa do eSocial SST para empresas. Envio dos eventos S-2210, S-2220, S-2221 e S-2240 com segurança, conformidade legal e suporte especializado.",
+        "Gestão completa do eSocial SST para empresas. Envio dos eventos S-2210, S-2220,  e S-2240 com segurança, conformidade legal e suporte especializado.",
 
       keywords: [
         "eSocial SST",

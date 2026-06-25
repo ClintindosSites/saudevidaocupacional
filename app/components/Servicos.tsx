@@ -14,8 +14,7 @@ import {
   GraduationCap,
   HeartPulse,
 } from "lucide-react";
-import { whatsappUrl } from "@/constants/whatsapp";
-import Image from "next/image";
+
 const servicosHome = [
   {
     title: "Medicina do Trabalho",
