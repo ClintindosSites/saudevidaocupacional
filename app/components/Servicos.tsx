@@ -39,7 +39,7 @@ const servicosHome = [
     slug: "ergonomia",
     image: "/ergonomia-card.webp",
     description:
-      "Análises ergonômicas, AEP, AET e avaliação dos fatores psicossociais para adequação à NR-17 e melhoria das condições de trabalho.",
+      "Análises ergonômicas, AEP, AET e avaliação dos fatores psicossociais para adequação à NR-1 e NR-17 e melhoria das condições de trabalho.",
     icon: PersonStanding,
   },
   {

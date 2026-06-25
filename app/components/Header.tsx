@@ -33,10 +33,10 @@ export default function Header() {
 
           <a
             className="headerInfo"
-            href="mailto:adm.financeiro@saudevidamed.com.br"
+            href="mailto:comercializacao@saudevidamed.com.br"
           >
             <Mail size={14} />
-            <span>adm.financeiro@saudevidamed.com.br</span>
+            <span>comercializacao@saudevidamed.com.br</span>
           </a>
           <a
             className="headerInfo"
