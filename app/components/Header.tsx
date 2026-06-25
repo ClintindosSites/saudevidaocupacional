@@ -61,7 +61,9 @@ export default function Header() {
 
         <nav className={`nav ${menuOpen ? "active" : ""}`}>
           <Link href="/">Home</Link>
+          <Link href={"/servicos/nr-1"}>NR-1</Link>
           <Link href="#servicos">Serviços</Link>
+
           {/*      <div className="dropdown">
             <button className="dropdownBtn">Serviços</button>
 

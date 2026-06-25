@@ -329,7 +329,150 @@ export const servicos: ServiceData[] = [
       ],
     },
   },
+  {
+    slug: "nr-1",
 
+    title: "NR-1",
+
+    benefitsSection: {
+      title: "Por que adequar sua empresa à NR-1 é tão importante?",
+      subtitle:
+        "Evite multas, reduza riscos ocupacionais e mantenha sua empresa em conformidade com a legislação trabalhista.",
+    },
+
+    description:
+      "Consultoria especializada para adequação à Norma Regulamentadora nº 1.",
+
+    hero: {
+      title:
+        "Adeque sua empresa à NR-1 e mantenha sua operação em conformidade com a legislação.",
+
+      subtitle:
+        "Consultoria completa para implementação das exigências da NR-1, Gerenciamento de Riscos Ocupacionais (GRO), PGR e adequação às novas exigências legais.",
+    },
+
+    heroImage: "/nr1-hero.webp",
+
+    painImage: "/nr1-pain.webp",
+
+    benefits: [
+      {
+        title: "Conformidade com a legislação",
+
+        description:
+          "Atenda às exigências da NR-1 e mantenha sua empresa preparada para fiscalizações, evitando multas e notificações dos órgãos competentes.",
+      },
+
+      {
+        title: "Implantação do GRO e PGR",
+
+        description:
+          "Realizamos a estruturação completa do Gerenciamento de Riscos Ocupacionais (GRO) e do Programa de Gerenciamento de Riscos (PGR) conforme determina a legislação.",
+      },
+
+      {
+        title: "Redução de acidentes e passivos",
+
+        description:
+          "Identifique perigos, implemente medidas preventivas e reduza acidentes, afastamentos e custos trabalhistas relacionados à segurança ocupacional.",
+      },
+
+      {
+        title: "Gestão dos riscos psicossociais",
+
+        description:
+          "Auxiliamos sua empresa na identificação e avaliação dos fatores psicossociais, contribuindo para ambientes de trabalho mais saudáveis e alinhados às novas exigências da NR-1.",
+      },
+    ],
+
+    introTitle: "O que é a NR-1?",
+
+    introText:
+      "A Norma Regulamentadora nº 1 estabelece as disposições gerais sobre Saúde e Segurança do Trabalho e define as diretrizes para o Gerenciamento de Riscos Ocupacionais (GRO). Atualmente, a NR-1 exige que as empresas identifiquem, avaliem e controlem os riscos existentes no ambiente de trabalho, incluindo os riscos psicossociais quando aplicáveis, promovendo ambientes mais seguros e reduzindo acidentes, afastamentos e passivos trabalhistas.",
+
+    cta: {
+      title:
+        "Sua empresa está preparada para atender às novas exigências da NR-1?",
+
+      description:
+        "Conte com uma equipe especializada para implantar o GRO, elaborar o PGR, avaliar riscos ocupacionais e garantir que sua empresa esteja em conformidade com a legislação vigente.",
+
+      buttonText: "Solicitar Consultoria NR-1",
+
+      whatsappMessage:
+        "Olá, vim do Google e gostaria de um orçamento para adequação da minha empresa à NR-1.",
+    },
+
+    faq: [
+      {
+        question: "O que é a NR-1?",
+
+        answer:
+          "A NR-1 é a Norma Regulamentadora que estabelece as disposições gerais sobre Saúde e Segurança do Trabalho e define as regras para o Gerenciamento de Riscos Ocupacionais (GRO).",
+      },
+
+      {
+        question: "Toda empresa precisa cumprir a NR-1?",
+
+        answer:
+          "Sim. Toda empresa que possui empregados sob o regime CLT deve atender às exigências da NR-1 conforme sua atividade e nível de risco.",
+      },
+
+      {
+        question: "Qual a relação entre NR-1 e PGR?",
+
+        answer:
+          "A NR-1 tornou obrigatória a implementação do Programa de Gerenciamento de Riscos (PGR) para a maioria das empresas, substituindo o antigo PPRA.",
+      },
+
+      {
+        question: "A NR-1 exige avaliação dos riscos psicossociais?",
+
+        answer:
+          "As atualizações da NR-1 reforçam que os riscos ocupacionais devem ser gerenciados de forma ampla, incluindo fatores psicossociais quando presentes no ambiente de trabalho.",
+      },
+
+      {
+        question: "Minha empresa pode ser multada por não cumprir a NR-1?",
+
+        answer:
+          "Sim. O descumprimento das exigências da NR-1 pode resultar em multas, notificações, interdições e aumento dos riscos trabalhistas e previdenciários.",
+      },
+
+      {
+        question: "Quais documentos estão relacionados à NR-1?",
+
+        answer:
+          "Entre os principais documentos estão o Programa de Gerenciamento de Riscos (PGR), inventário de riscos, plano de ação e demais registros exigidos pelo Gerenciamento de Riscos Ocupacionais.",
+      },
+    ],
+
+    seo: {
+      title:
+        "NR-1 para Empresas | Adequação, GRO, PGR e Consultoria em Segurança do Trabalho",
+
+      description:
+        "Adequação completa à NR-1. Implantação do GRO, elaboração de PGR, gerenciamento de riscos ocupacionais e consultoria especializada para empresas.",
+
+      keywords: [
+        "NR1",
+        "NR-1",
+        "Norma Regulamentadora 1",
+        "GRO",
+        "Gerenciamento de Riscos Ocupacionais",
+        "PGR",
+        "Programa de Gerenciamento de Riscos",
+        "consultoria NR1",
+        "adequação NR1",
+        "segurança do trabalho",
+        "medicina do trabalho",
+        "riscos psicossociais",
+        "consultoria SST",
+        "empresa NR1",
+        "NR1 empresas",
+      ],
+    },
+  },
   {
     slug: "pcmso",
 

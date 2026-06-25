@@ -13,6 +13,7 @@ import {
   Factory,
   GraduationCap,
   HeartPulse,
+  ClipboardList,
 } from "lucide-react";
 
 const servicosHome = [
@@ -48,6 +49,14 @@ const servicosHome = [
     description:
       "Realizamos exames admissionais, periódicos, demissionais, retorno ao trabalho e mudança de função com emissão rápida de ASO.",
     icon: ClipboardCheck,
+  },
+  {
+    title: "NR-1",
+    slug: "nr-1",
+    image: "/nr1-card.webp",
+    description:
+      "Adequação completa à nova NR-1, incluindo gerenciamento de riscos ocupacionais, fatores psicossociais e conformidade com as exigências do Ministério do Trabalho.",
+    icon: ClipboardList,
   },
   {
     title: "PCMSO",
