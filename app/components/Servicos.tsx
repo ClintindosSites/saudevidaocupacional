@@ -81,7 +81,7 @@ const servicosHome = [
     slug: "esocial",
     image: "/eSocial-card.webp",
     description:
-      "Gestão e envio dos eventos S-2210, S-2220, S-2221 e S-2240, garantindo conformidade legal e evitando multas para sua empresa.",
+      "Gestão e envio dos eventos S-2210, S-2220,  e S-2240, garantindo conformidade legal e evitando multas para sua empresa.",
     icon: FileSpreadsheet,
   },
 
