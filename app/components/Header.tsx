@@ -49,7 +49,7 @@ export default function Header() {
         </div>
       </div>
       <div className="container">
-        <Link href="/" className="logo">
+        <Link href="#" className="logo">
           <Image
             src="/logo.png"
             width={160}
